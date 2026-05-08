@@ -1,0 +1,1182 @@
+set_all_prod_arrays = {
+	### OLV1
+	add_to_array = { global.prod_10_array = 101 }
+	add_to_array = { global.prod_10_price_unit = 0.006 }
+	add_to_array = { global.prod_10_duration_unit = 240 }
+	### OLV2
+	add_to_array = { global.prod_10_array = 102 }
+	add_to_array = { global.prod_10_price_unit = 0.008 }
+	add_to_array = { global.prod_10_duration_unit = 260 }
+	### OLV3
+	add_to_array = { global.prod_10_array = 103 }
+	add_to_array = { global.prod_10_price_unit = 0.01 }
+	add_to_array = { global.prod_10_duration_unit = 280 }
+	### OLV4
+	add_to_array = { global.prod_10_array = 104 }
+	add_to_array = { global.prod_10_price_unit = 0.014 }
+	add_to_array = { global.prod_10_duration_unit = 300 }
+	### OLV5
+	add_to_array = { global.prod_10_array = 105 }
+	add_to_array = { global.prod_10_price_unit = 0.028 }
+	add_to_array = { global.prod_10_duration_unit = 320 }
+	### OLV6
+	add_to_array = { global.prod_10_array = 106 }
+	add_to_array = { global.prod_10_price_unit = 0.06 }
+	add_to_array = { global.prod_10_duration_unit = 340 }
+	### OLV7
+	add_to_array = { global.prod_10_array = 107 }
+	add_to_array = { global.prod_10_price_unit = 0.14 }
+	add_to_array = { global.prod_10_duration_unit = 360 }
+	### OLV8
+	add_to_array = { global.prod_10_array = 108 }
+	add_to_array = { global.prod_10_price_unit = 0.28 }
+	add_to_array = { global.prod_10_duration_unit = 380 }
+	### GNSS1
+	add_to_array = { global.prod_11_array = 111 }
+	add_to_array = { global.prod_11_price_unit = 0.02 }
+	add_to_array = { global.prod_11_duration_unit = 80 }
+	### GNSS2
+	add_to_array = { global.prod_11_array = 112 }
+	add_to_array = { global.prod_11_price_unit = 0.05 }
+	add_to_array = { global.prod_11_duration_unit = 100 }
+	### GNSS3
+	add_to_array = { global.prod_11_array = 113 }
+	add_to_array = { global.prod_11_price_unit = 0.1 }
+	add_to_array = { global.prod_11_duration_unit = 120 }
+	### GNSS4
+	add_to_array = { global.prod_11_array = 114 }
+	add_to_array = { global.prod_11_price_unit = 0.2 }
+	add_to_array = { global.prod_11_duration_unit = 140 }
+	### GNSS5
+	add_to_array = { global.prod_11_array = 115 }
+	add_to_array = { global.prod_11_price_unit = 0.3 }
+	add_to_array = { global.prod_11_duration_unit = 160 }
+	### GNSS6
+	add_to_array = { global.prod_11_array = 116 }
+	add_to_array = { global.prod_11_price_unit = 0.4 }
+	add_to_array = { global.prod_11_duration_unit = 180 }
+	### GNSS7
+	add_to_array = { global.prod_11_array = 117 }
+	add_to_array = { global.prod_11_price_unit = 0.5 }
+	add_to_array = { global.prod_11_duration_unit = 200 }
+	### GNSS8
+	add_to_array = { global.prod_11_array = 118 }
+	add_to_array = { global.prod_11_price_unit = 0.6 }
+	add_to_array = { global.prod_11_duration_unit = 220 }
+	### COMSAT1
+	add_to_array = { global.prod_12_array = 121 }
+	add_to_array = { global.prod_12_price_unit = 0.1 }
+	add_to_array = { global.prod_12_duration_unit = 120 }
+	### COMSAT2
+	add_to_array = { global.prod_12_array = 122 }
+	add_to_array = { global.prod_12_price_unit = 0.2 }
+	add_to_array = { global.prod_12_duration_unit = 140 }
+	### COMSAT3
+	add_to_array = { global.prod_12_array = 123 }
+	add_to_array = { global.prod_12_price_unit = 0.3 }
+	add_to_array = { global.prod_12_duration_unit = 160 }
+	### COMSAT4
+	add_to_array = { global.prod_12_array = 124 }
+	add_to_array = { global.prod_12_price_unit = 0.4 }
+	add_to_array = { global.prod_12_duration_unit = 140 }
+	### COMSAT5
+	add_to_array = { global.prod_12_array = 125 }
+	add_to_array = { global.prod_12_price_unit = 0.5 }
+	add_to_array = { global.prod_12_duration_unit = 200 }
+	### COMSAT6
+	add_to_array = { global.prod_12_array = 126 }
+	add_to_array = { global.prod_12_price_unit = 0.6 }
+	add_to_array = { global.prod_12_duration_unit = 220 }
+	### COMSAT7
+	add_to_array = { global.prod_12_array = 127 }
+	add_to_array = { global.prod_12_price_unit = 0.7 }
+	add_to_array = { global.prod_12_duration_unit = 240 }
+	### COMSAT8
+	add_to_array = { global.prod_12_array = 128 }
+	add_to_array = { global.prod_12_price_unit = 0.8 }
+	add_to_array = { global.prod_12_duration_unit = 260 }
+	### SPYSAT1
+	add_to_array = { global.prod_13_array = 131 }
+	add_to_array = { global.prod_13_price_unit = 0.1 }
+	add_to_array = { global.prod_13_duration_unit = 100 }
+	### SPYSAT2
+	add_to_array = { global.prod_13_array = 132 }
+	add_to_array = { global.prod_13_price_unit = 0.2 }
+	add_to_array = { global.prod_13_duration_unit = 120 }
+	### SPYSAT3
+	add_to_array = { global.prod_13_array = 133 }
+	add_to_array = { global.prod_13_price_unit = 0.3 }
+	add_to_array = { global.prod_13_duration_unit = 140 }
+	### SPYSAT4
+	add_to_array = { global.prod_13_array = 134 }
+	add_to_array = { global.prod_13_price_unit = 0.4 }
+	add_to_array = { global.prod_13_duration_unit = 160 }
+	### SPYSAT5
+	add_to_array = { global.prod_13_array = 135 }
+	add_to_array = { global.prod_13_price_unit = 0.6 }
+	add_to_array = { global.prod_13_duration_unit = 180 }
+	### SPYSAT6
+	add_to_array = { global.prod_13_array = 136 }
+	add_to_array = { global.prod_13_price_unit = 0.8 }
+	add_to_array = { global.prod_13_duration_unit = 200 }
+	### SPYSAT7
+	add_to_array = { global.prod_13_array = 137 }
+	add_to_array = { global.prod_13_price_unit = 0.9 }
+	add_to_array = { global.prod_13_duration_unit = 220 }
+	### SPYSAT8
+	add_to_array = { global.prod_13_array = 138 }
+	add_to_array = { global.prod_13_price_unit = 1 }
+	add_to_array = { global.prod_13_duration_unit = 240 }
+	### KILLSAT1
+	add_to_array = { global.prod_14_array = 141 }
+	add_to_array = { global.prod_14_price_unit = 0.6 }
+	add_to_array = { global.prod_14_duration_unit = 120 }
+	### KILLSAT2
+	add_to_array = { global.prod_14_array = 142 }
+	add_to_array = { global.prod_14_price_unit = 0.8 }
+	add_to_array = { global.prod_14_duration_unit = 120 }
+	### KILLSAT3
+	add_to_array = { global.prod_14_array = 143 }
+	add_to_array = { global.prod_14_price_unit = 0.9 }
+	add_to_array = { global.prod_14_duration_unit = 140 }
+	### KILLSAT4
+	add_to_array = { global.prod_14_array = 144 }
+	add_to_array = { global.prod_14_price_unit = 1 }
+	add_to_array = { global.prod_14_duration_unit = 160 }
+	### KILLSAT5
+	add_to_array = { global.prod_14_array = 145 }
+	add_to_array = { global.prod_14_price_unit = 1.1 }
+	add_to_array = { global.prod_14_duration_unit = 180 }
+	### KILLSAT6
+	add_to_array = { global.prod_14_array = 146 }
+	add_to_array = { global.prod_14_price_unit = 1.2 }
+	add_to_array = { global.prod_14_duration_unit = 200 }
+}
+
+part_reusable_OLV6 = {
+	add_to_variable = { global.prod_10_price_unit^5 = -0.005 }
+	add_to_variable = { global.prod_10_duration_unit^5 = -10 }
+	add_to_variable = { global.missile_price_unit_array^106 = -0.005 }
+	add_to_variable = { global.missile_duration_unit_array^106 = -10 }
+}
+
+full_reusable_OLV7 = {
+	add_to_variable = { global.prod_10_price_unit^6 = -0.01 }
+	add_to_variable = { global.prod_10_duration_unit^6 = -25 }
+	add_to_variable = { global.missile_price_unit_array^107 = -0.01 }
+	add_to_variable = { global.missile_duration_unit_array^107 = -25 }
+}
+
+full_reusable_OLV8 = {
+	add_to_variable = { global.prod_10_price_unit^7 = -0.03 }
+	add_to_variable = { global.prod_10_duration_unit^7 = -45 }
+	add_to_variable = { global.missile_price_unit_array^108 = -0.03 }
+	add_to_variable = { global.missile_duration_unit_array^108 = -45 }
+}
+
+### SAT SYSTEM TECH ###
+set_all_sat_system_tech = {
+	set_sat_system_min = yes
+	set_sat_system_max = yes
+
+	#GNSS1
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.05 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.05 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.05 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.05 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.025 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.05 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.05 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.05 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.05 }
+	#GNSS2
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0.02 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.1 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0.02 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.1 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0.02 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.1 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0.02 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.1 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0.01 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.05 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0.02 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.1 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0.02 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.1 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0.02 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.1 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0.02 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.1 }
+	#GNSS3
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0.03 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.15 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0.03 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.15 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0.03 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.15 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0.03 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.15 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0.015 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.075 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0.03 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.15 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0.03 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.15 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0.03 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.15 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0.03 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.15 }
+	#GNSS4
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0.04 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.20 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0.04 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.20 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0.04 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.20 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0.04 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.20 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0.02 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.10 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0.04 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.20 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0.04 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.20 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0.04 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.20 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0.04 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.20 }
+	#GNSS5
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0.05 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.25 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0.05 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.25 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0.05 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.25 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0.05 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.25 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0.025 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.125 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0.05 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.25 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0.05 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.25 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0.05 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.25 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0.05 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.25 }
+	#GNSS6
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0.06 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.30 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0.06 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.30 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0.06 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.30 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0.06 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.30 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0.03 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.15 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0.06 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.30 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0.06 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.30 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0.06 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.30 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0.06 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.30 }
+	#GNSS7
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0.07 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.35 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0.07 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.35 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0.07 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.35 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0.07 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.35 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0.035 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.175 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0.07 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.35 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0.07 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.35 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0.07 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.35 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0.07 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.35 }
+	#GNSS8
+	add_to_array = { global.GNSS_mil_army_speed_factor_min_array = 0.08 }
+	add_to_array = { global.GNSS_mil_army_speed_factor_max_array = 0.4 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_min_array = 0.08 }
+	add_to_array = { global.GNSS_mil_air_cas_efficiency_max_array = 0.4 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_min_array = 0.08 }
+	add_to_array = { global.GNSS_mil_air_nav_efficiency_max_array = 0.4 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_min_array = 0.08 }
+	add_to_array = { global.GNSS_mil_air_strategic_bomber_bombing_factor_max_array = 0.4 }
+	add_to_array = { global.GNSS_mil_positioning_min_array = 0.04 }
+	add_to_array = { global.GNSS_mil_positioning_max_array = 0.2 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_min_array = 0.08 }
+	add_to_array = { global.GNSS_mil_naval_hit_chance_max_array = 0.4 }
+	#
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_min_array = 0.08 }
+	add_to_array = { global.GNSS_civ_production_speed_buildings_factor_max_array = 0.4 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_min_array = 0.08 }
+	add_to_array = { global.GNSS_civ_production_speed_infrastructure_factor_max_array = 0.4 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_min_array = 0.08 }
+	add_to_array = { global.GNSS_civ_local_resources_factor_max_array = 0.4 }
+	#COMSAT1
+	add_to_array = { global.COM_mil_max_command_power_min_array = 0 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 5 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.05 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.05 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.05 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.05 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.05 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.05 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.05 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.05 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.05 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.05 }
+	#COMSAT2
+	add_to_array = { global.COM_mil_max_command_power_min_array = 2 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 10 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0.02 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.1 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0.02 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.1 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0.02 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.1 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0.02 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.1 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0.02 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.1 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0.02 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.10 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0.02 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.1 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0.02 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.1 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0.02 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.1 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0.02 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.1 }
+	#COMSAT3
+	add_to_array = { global.COM_mil_max_command_power_min_array = 3 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 15 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0.03 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.15 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0.03 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.15 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0.03 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.15 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0.03 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.15 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0.03 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.15 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0.03 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.15 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0.03 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.15 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0.03 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.15 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0.03 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.15 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0.03 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.15 }
+	#COMSAT4
+	add_to_array = { global.COM_mil_max_command_power_min_array = 4 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 20 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0.04 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.20 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0.04 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.20 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0.04 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.20 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0.04 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.20 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0.04 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.20 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0.04 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.20 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0.04 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.20 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0.04 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.20 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0.04 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.20 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0.04 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.20 }
+	#COMSAT5
+	add_to_array = { global.COM_mil_max_command_power_min_array = 5 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 25 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0.05 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.25 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0.05 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.25 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0.05 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.25 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0.05 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.25 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0.05 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.25 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0.05 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.25 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0.05 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.25 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0.05 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.25 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0.05 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.25 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0.05 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.25 }
+	#COMSAT6
+	add_to_array = { global.COM_mil_max_command_power_min_array = 6 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 30 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0.06 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.30 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0.06 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.30 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0.06 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.30 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0.06 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.30 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0.06 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.30 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0.06 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.30 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0.06 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.30 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0.06 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.30 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0.06 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.30 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0.06 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.30 }
+	#COMSAT7
+	add_to_array = { global.COM_mil_max_command_power_min_array = 7 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 35 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0.07 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.35 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0.07 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.35 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0.07 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.35 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0.07 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.35 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0.07 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.35 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0.07 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.35 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0.07 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.35 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0.07 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.35 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0.07 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.35 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0.07 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.35 }
+	#COMSAT8
+	add_to_array = { global.COM_mil_max_command_power_min_array = 8 }
+	add_to_array = { global.COM_mil_max_command_power_max_array = 40 }
+	add_to_array = { global.COM_mil_army_org_factor_min_array = 0.08 }
+	add_to_array = { global.COM_mil_army_org_factor_max_array = 0.4 }
+	add_to_array = { global.COM_mil_planning_speed_min_array = 0.08 }
+	add_to_array = { global.COM_mil_planning_speed_max_array = 0.4 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_min_array = 0.08 }
+	add_to_array = { global.COM_mil_air_escort_efficiency_max_array = 0.4 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_min_array = 0.08 }
+	add_to_array = { global.COM_mil_air_intercept_efficiency_max_array = 0.4 }
+	add_to_array = { global.COM_mil_naval_coordination_min_array = 0.08 }
+	add_to_array = { global.COM_mil_naval_coordination_max_array = 0.4 }
+	#
+	add_to_array = { global.COM_civ_political_power_factor_min_array = 0.08 }
+	add_to_array = { global.COM_civ_political_power_factor_max_array = 0.40 }
+	add_to_array = { global.COM_civ_decryption_factor_min_array = 0.08 }
+	add_to_array = { global.COM_civ_decryption_factor_max_array = 0.4 }
+	add_to_array = { global.COM_civ_encryption_factor_min_array = 0.08 }
+	add_to_array = { global.COM_civ_encryption_factor_max_array = 0.4 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_min_array = 0.08 }
+	add_to_array = { global.COM_civ_intel_network_gain_factor_max_array = 0.4 }
+	add_to_array = { global.COM_civ_operation_outcome_min_array = 0.08 }
+	add_to_array = { global.COM_civ_operation_outcome_max_array = 0.4 }
+	#SPYSAT1
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = 0 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.05 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.05 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.05 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.05 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.05 }
+	#SPYSAT2
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = -0.02 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.1 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0.02 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.1 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0.02 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.1 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.1 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0.02 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.1 }
+	#SPYSAT3
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = -0.03 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.15 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0.03 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.15 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0.03 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.15 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.15 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0.03 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.15 }
+	#SPYSAT4
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = -0.04 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.20 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0.04 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.20 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0.04 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.20 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.20 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0.04 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.20 }
+	#SPYSAT5
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = -0.05 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.25 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0.05 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.25 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0.05 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.25 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.25 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0.05 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.25 }
+	#SPYSAT6
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = -0.06 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.30 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0.06 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.30 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0.06 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.30 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.30 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0.06 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.30 }
+	#SPYSAT7
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = -0.07 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.35 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0.07 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.35 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0.07 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.35 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.35 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0.07 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.35 }
+	#SPYSAT8
+	add_to_array = { global.SPY_mil_max_planning_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_mil_max_planning_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_mil_recon_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_mil_recon_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_min_array = -0.08 }
+	add_to_array = { global.SPY_mil_air_weather_penalty_max_array = -0.4 }
+	add_to_array = { global.SPY_mil_spotting_chance_min_array = 0.08 }
+	add_to_array = { global.SPY_mil_spotting_chance_max_array = 0.4 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_mil_convoy_raiding_efficiency_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_min_array = 0.08 }
+	add_to_array = { global.SPY_mil_convoy_escort_efficiency_max_array = 0.4 }
+	#
+	add_to_array = { global.SPY_civ_research_speed_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_civ_research_speed_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_civ_civilian_intel_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_civ_army_intel_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_civ_army_intel_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_civ_navy_intel_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_civ_airforce_intel_factor_max_array = 0.4 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_min_array = 0.08 }
+	add_to_array = { global.SPY_civ_root_out_resistance_effectiveness_factor_max_array = 0.4 }
+
+}
+
+set_sat_system_min = {
+	#GNSS
+	add_to_array = { global.GNSS_sat_system_min_array = 0 }
+	add_to_array = { global.GNSS_sat_system_min_array = 5 }
+	add_to_array = { global.GNSS_sat_system_min_array = 10 }
+	add_to_array = { global.GNSS_sat_system_min_array = 15 }
+	add_to_array = { global.GNSS_sat_system_min_array = 20 }
+	add_to_array = { global.GNSS_sat_system_min_array = 25 }
+	add_to_array = { global.GNSS_sat_system_min_array = 30 }
+	add_to_array = { global.GNSS_sat_system_min_array = 35 }
+	#COM
+	add_to_array = { global.COM_sat_system_min_array = 0 }
+	add_to_array = { global.COM_sat_system_min_array = 5 }
+	add_to_array = { global.COM_sat_system_min_array = 10 }
+	add_to_array = { global.COM_sat_system_min_array = 15 }
+	add_to_array = { global.COM_sat_system_min_array = 20 }
+	add_to_array = { global.COM_sat_system_min_array = 25 }
+	add_to_array = { global.COM_sat_system_min_array = 30 }
+	add_to_array = { global.COM_sat_system_min_array = 35 }
+	#SPY
+	add_to_array = { global.SPY_sat_system_min_array = 0 }
+	add_to_array = { global.SPY_sat_system_min_array = 5 }
+	add_to_array = { global.SPY_sat_system_min_array = 10 }
+	add_to_array = { global.SPY_sat_system_min_array = 15 }
+	add_to_array = { global.SPY_sat_system_min_array = 20 }
+	add_to_array = { global.SPY_sat_system_min_array = 25 }
+	add_to_array = { global.SPY_sat_system_min_array = 30 }
+	add_to_array = { global.SPY_sat_system_min_array = 35 }
+}
+
+set_sat_system_max = {
+	#GNSS
+	add_to_array = { global.GNSS_sat_system_max_array = 25 }
+	add_to_array = { global.GNSS_sat_system_max_array = 30 }
+	add_to_array = { global.GNSS_sat_system_max_array = 35 }
+	add_to_array = { global.GNSS_sat_system_max_array = 40 }
+	add_to_array = { global.GNSS_sat_system_max_array = 45 }
+	add_to_array = { global.GNSS_sat_system_max_array = 50 }
+	add_to_array = { global.GNSS_sat_system_max_array = 55 }
+	add_to_array = { global.GNSS_sat_system_max_array = 60 }
+	#COM
+	add_to_array = { global.COM_sat_system_max_array = 25 }
+	add_to_array = { global.COM_sat_system_max_array = 30 }
+	add_to_array = { global.COM_sat_system_max_array = 35 }
+	add_to_array = { global.COM_sat_system_max_array = 40 }
+	add_to_array = { global.COM_sat_system_max_array = 45 }
+	add_to_array = { global.COM_sat_system_max_array = 50 }
+	add_to_array = { global.COM_sat_system_max_array = 55 }
+	add_to_array = { global.COM_sat_system_max_array = 60 }
+	#SPY
+	add_to_array = { global.SPY_sat_system_max_array = 25 }
+	add_to_array = { global.SPY_sat_system_max_array = 30 }
+	add_to_array = { global.SPY_sat_system_max_array = 35 }
+	add_to_array = { global.SPY_sat_system_max_array = 40 }
+	add_to_array = { global.SPY_sat_system_max_array = 45 }
+	add_to_array = { global.SPY_sat_system_max_array = 50 }
+	add_to_array = { global.SPY_sat_system_max_array = 55 }
+	add_to_array = { global.SPY_sat_system_max_array = 60 }
+}
+
+################
+### OLV TECH ###
+################
+
+set_all_OLV_tech = {
+	### OLV1 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.60 index = 0 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 2000 index = 0 }
+	### OLV2 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.65 index = 1 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 4000 index = 1 }
+	### OLV3 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.70 index = 2 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 6000 index = 2 }
+	### OLV4 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.75 index = 3 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 8000 index = 3 }
+	### OLV5 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.80 index = 4 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 12000 index = 4 }
+	### OLV6 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.85 index = 5 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 16000 index = 5 }
+	### OLV7 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.90 index = 6 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 20000 index = 6 }
+	### OLV8 ###
+	add_to_array = { array = global.OLV_reliability_array value = 0.95 index = 7 }
+	add_to_array = { array = global.OLV_payload_mass_array value = 24000 index = 7 }
+}
+
+#################
+### ASAT TECH ###
+#################
+
+set_all_ASAT_tech = {
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.40 index = 0 }
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.50 index = 1 }
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.60 index = 2 }
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.70 index = 3 }
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.75 index = 4 }
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.80 index = 5 }
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.85 index = 6 }
+	add_to_array = { array = global.ASAT_accuracy_array value = 0.90 index = 7 }
+}
+
+# missile_tech.xlsx sheet 'ASAT tech effect code'
+
+####################
+### KILLSAT TECH ###
+####################
+
+set_all_KILLSAT_tech = {
+	add_to_array = { array = global.KILLSAT_accuracy_array value = 0.40 index = 0 }
+	add_to_array = { array = global.KILLSAT_accuracy_array value = 0.50 index = 1 }
+	add_to_array = { array = global.KILLSAT_accuracy_array value = 0.60 index = 2 }
+	add_to_array = { array = global.KILLSAT_accuracy_array value = 0.70 index = 3 }
+	add_to_array = { array = global.KILLSAT_accuracy_array value = 0.80 index = 4 }
+	add_to_array = { array = global.KILLSAT_accuracy_array value = 0.90 index = 5 }
+}
+
+# missile_tech.xlsx sheet 'KILLSAT tech effect code'
+
+################
+### SAT MASS ###
+################
+
+set_all_sat_mass = {
+	add_to_array = { array = global.sat_mass_array value = 2000 index = 0 }
+	add_to_array = { array = global.sat_mass_array value = 2200 index = 1 }
+	add_to_array = { array = global.sat_mass_array value = 2400 index = 2 }
+	add_to_array = { array = global.sat_mass_array value = 2600 index = 3 }
+	add_to_array = { array = global.sat_mass_array value = 2800 index = 4 }
+	add_to_array = { array = global.sat_mass_array value = 3000 index = 5 }
+	add_to_array = { array = global.sat_mass_array value = 3200 index = 6 }
+	add_to_array = { array = global.sat_mass_array value = 3400 index = 7 }
+	add_to_array = { array = global.sat_mass_array value = 2000 index = 8 }
+	add_to_array = { array = global.sat_mass_array value = 3000 index = 9 }
+	add_to_array = { array = global.sat_mass_array value = 4000 index = 10 }
+	add_to_array = { array = global.sat_mass_array value = 4500 index = 11 }
+	add_to_array = { array = global.sat_mass_array value = 5000 index = 12 }
+	add_to_array = { array = global.sat_mass_array value = 5500 index = 13 }
+	add_to_array = { array = global.sat_mass_array value = 6000 index = 14 }
+	add_to_array = { array = global.sat_mass_array value = 6500 index = 15 }
+	add_to_array = { array = global.sat_mass_array value = 2000 index = 16 }
+	add_to_array = { array = global.sat_mass_array value = 4000 index = 17 }
+	add_to_array = { array = global.sat_mass_array value = 6000 index = 18 }
+	add_to_array = { array = global.sat_mass_array value = 8000 index = 19 }
+	add_to_array = { array = global.sat_mass_array value = 12000 index = 20 }
+	add_to_array = { array = global.sat_mass_array value = 16000 index = 21 }
+	add_to_array = { array = global.sat_mass_array value = 20000 index = 22 }
+	add_to_array = { array = global.sat_mass_array value = 24000 index = 23 }
+	add_to_array = { array = global.sat_mass_array value = 4000 index = 24 }
+	add_to_array = { array = global.sat_mass_array value = 3000 index = 25 }
+	add_to_array = { array = global.sat_mass_array value = 2500 index = 26 }
+	add_to_array = { array = global.sat_mass_array value = 2000 index = 27 }
+	add_to_array = { array = global.sat_mass_array value = 1500 index = 28 }
+	add_to_array = { array = global.sat_mass_array value = 1000 index = 29 }
+}
+
+## SPP Launch Mass
+set_all_spp_mass = {
+	resize_array = { spp_orbit_array = 3 }
+	add_to_array = { array = global.spp_mass_array value = 2000 index = 0 }
+	add_to_array = { array = global.spp_mass_array value = 3000 index = 1 }
+	add_to_array = { array = global.spp_mass_array value = 4000 index = 2 }
+}
+
+
+## Display Stats
+### only used for tooltips
+set_missile_display_stats = {
+	if = {
+		limit = { is_debug = yes }
+		log = "[GetDateText]: [THIS.GetName]: on_startup set_missile_display_stats"
+	}
+	resize_array = { global.missile_range_array = 72 }
+	resize_array = { global.missile_accuracy_array = 72 }
+	resize_array = { global.missile_intercept_chance_array = 72 }
+
+	resize_array = { global.OLV_reliability_stat_array = 108 }
+	resize_array = { global.OLV_payload_mass_stat_array = 108 }
+
+	resize_array = { global.ASAT_accuracy_stat_array = 97 }
+
+	resize_array = { global.sat_mass_stat_array = 153 }
+	resize_array = { global.KILLSAT_accuracy_stat_array = 153 }
+
+	resize_array = { global.missile_price_unit_array = 153 }
+	resize_array = { global.missile_CIC_unit_array = 153 }
+	resize_array = { global.missile_duration_unit_array = 153 }
+
+	###########
+	### OLV ###
+	###########
+
+	### OLV 1965 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.60 index = 101 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 2000 index = 101 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.006 index = 101 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 101 }
+	add_to_array = { array = global.missile_duration_unit_array value = 240 index = 101 }
+	### OLV 1975 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.65 index = 102 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 4000 index = 102 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.008 index = 102 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 102 }
+	add_to_array = { array = global.missile_duration_unit_array value = 260 index = 102 }
+	### OLV 1985 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.70 index = 103 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 6000 index = 103 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.01 index = 103 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 103 }
+	add_to_array = { array = global.missile_duration_unit_array value = 280 index = 103 }
+	### OLV 1995 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.75 index = 104 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 8000 index = 104 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.014 index = 104 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 104 }
+	add_to_array = { array = global.missile_duration_unit_array value = 300 index = 104 }
+	### OLV 2005 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.80 index = 105 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 12000 index = 105 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.028 index = 105 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 105 }
+	add_to_array = { array = global.missile_duration_unit_array value = 360 index = 105 }
+	### OLV 2015 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.85 index = 106 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 16000 index = 106 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.06 index = 106 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 106 }
+	add_to_array = { array = global.missile_duration_unit_array value = 340 index = 106 }
+	### OLV 2025 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.90 index = 107 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 20000 index = 107 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.14 index = 107 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 107 }
+	add_to_array = { array = global.missile_duration_unit_array value = 360 index = 107 }
+	### OLV 2035 ###
+	add_to_array = { array = global.OLV_reliability_stat_array value = 0.95 index = 108 }
+	add_to_array = { array = global.OLV_payload_mass_stat_array value = 24000 index = 108 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.28 index = 108 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 108 }
+	add_to_array = { array = global.missile_duration_unit_array value = 380 index = 108 }
+
+	##################
+	### SATELLITES ###
+	##################
+
+	### GNSS1 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2000 index = 111 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.02 index = 111 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 111 }
+	add_to_array = { array = global.missile_duration_unit_array value = 80 index = 111 }
+	### GNSS2 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2200 index = 112 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.05 index = 112 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 112 }
+	add_to_array = { array = global.missile_duration_unit_array value = 100 index = 112 }
+	### GNSS3 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2400 index = 113 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.1 index = 113 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 113 }
+	add_to_array = { array = global.missile_duration_unit_array value = 120 index = 113 }
+	### GNSS4 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2600 index = 114 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.2 index = 114 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 114 }
+	add_to_array = { array = global.missile_duration_unit_array value = 140 index = 114 }
+	### GNSS5 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2800 index = 115 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.3 index = 115 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 115 }
+	add_to_array = { array = global.missile_duration_unit_array value = 160 index = 115 }
+	### GNSS6 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 3000 index = 116 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.4 index = 116 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 116 }
+	add_to_array = { array = global.missile_duration_unit_array value = 180 index = 116 }
+	### GNSS7 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 3200 index = 117 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.5 index = 117 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 117 }
+	add_to_array = { array = global.missile_duration_unit_array value = 200 index = 117 }
+	### GNSS8 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 3400 index = 118 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.6 index = 118 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 1 index = 118 }
+	add_to_array = { array = global.missile_duration_unit_array value = 220 index = 118 }
+	### COMSAT1 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2000 index = 121 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.1 index = 121 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 121 }
+	add_to_array = { array = global.missile_duration_unit_array value = 120 index = 121 }
+	### COMSAT2 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 3000 index = 122 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.2 index = 122 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 122 }
+	add_to_array = { array = global.missile_duration_unit_array value = 140 index = 122 }
+	### COMSAT3 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 4000 index = 123 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.3 index = 123 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 123 }
+	add_to_array = { array = global.missile_duration_unit_array value = 160 index = 123 }
+	### COMSAT4 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 4500 index = 124 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.4 index = 124 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 124 }
+	add_to_array = { array = global.missile_duration_unit_array value = 180 index = 124 }
+	### COMSAT5 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 5000 index = 125 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.5 index = 125 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 125 }
+	add_to_array = { array = global.missile_duration_unit_array value = 200 index = 125 }
+	### COMSAT6 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 5500 index = 126 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.6 index = 126 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 126 }
+	add_to_array = { array = global.missile_duration_unit_array value = 220 index = 126 }
+	### COMSAT7 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 6000 index = 127 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.7 index = 127 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 127 }
+	add_to_array = { array = global.missile_duration_unit_array value = 240 index = 127 }
+	### COMSAT8 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 6500 index = 128 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.8 index = 128 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 128 }
+	add_to_array = { array = global.missile_duration_unit_array value = 260 index = 128 }
+	### SPYSAT1 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2000 index = 131 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.1 index = 131 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 131 }
+	add_to_array = { array = global.missile_duration_unit_array value = 100 index = 131 }
+	### SPYSAT2 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 4000 index = 132 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.2 index = 132 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 132 }
+	add_to_array = { array = global.missile_duration_unit_array value = 120 index = 132 }
+	### SPYSAT3 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 6000 index = 133 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.3 index = 133 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 133 }
+	add_to_array = { array = global.missile_duration_unit_array value = 140 index = 133 }
+	### SPYSAT4 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 8000 index = 134 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.4 index = 134 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 134 }
+	add_to_array = { array = global.missile_duration_unit_array value = 160 index = 134 }
+	### SPYSAT5 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 12000 index = 135 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.6 index = 135 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 135 }
+	add_to_array = { array = global.missile_duration_unit_array value = 180 index = 135 }
+	### SPYSAT6 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 16000 index = 136 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.8 index = 136 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 136 }
+	add_to_array = { array = global.missile_duration_unit_array value = 200 index = 136 }
+	### SPYSAT7 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 20000 index = 137 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 0.9 index = 137 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 137 }
+	add_to_array = { array = global.missile_duration_unit_array value = 220 index = 137 }
+	### SPYSAT8 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 24000 index = 138 }
+	#
+	add_to_array = { array = global.missile_price_unit_array value = 1 index = 138 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 138 }
+	add_to_array = { array = global.missile_duration_unit_array value = 240 index = 138 }
+	### KILLSAT1 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 4000 index = 141 }
+	add_to_array = { array = global.KILLSAT_accuracy_stat_array value = 0.40 index = 141 }
+	add_to_array = { array = global.missile_price_unit_array value = 0.6 index = 141 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 141 }
+	add_to_array = { array = global.missile_duration_unit_array value = 120 index = 141 }
+	### KILLSAT2 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 3000 index = 142 }
+	add_to_array = { array = global.KILLSAT_accuracy_stat_array value = 0.50 index = 142 }
+	add_to_array = { array = global.missile_price_unit_array value = 0.8 index = 142 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 142 }
+	add_to_array = { array = global.missile_duration_unit_array value = 120 index = 142 }
+	### KILLSAT3 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2500 index = 143 }
+	add_to_array = { array = global.KILLSAT_accuracy_stat_array value = 0.60 index = 143 }
+	add_to_array = { array = global.missile_price_unit_array value = 0.9 index = 143 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 143 }
+	add_to_array = { array = global.missile_duration_unit_array value = 140 index = 143 }
+	### KILLSAT4 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 2000 index = 144 }
+	add_to_array = { array = global.KILLSAT_accuracy_stat_array value = 0.70 index = 144 }
+	add_to_array = { array = global.missile_price_unit_array value = 1 index = 144 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 144 }
+	add_to_array = { array = global.missile_duration_unit_array value = 160 index = 144 }
+	### KILLSAT5 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 1500 index = 145 }
+	add_to_array = { array = global.KILLSAT_accuracy_stat_array value = 0.80 index = 145 }
+	add_to_array = { array = global.missile_price_unit_array value = 1.1 index = 145 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 145 }
+	add_to_array = { array = global.missile_duration_unit_array value = 180 index = 145 }
+	### KILLSAT6 ###
+	add_to_array = { array = global.sat_mass_stat_array value = 1000 index = 146 }
+	add_to_array = { array = global.KILLSAT_accuracy_stat_array value = 0.90 index = 146 }
+	add_to_array = { array = global.missile_price_unit_array value = 1.2 index = 146 }
+	add_to_array = { array = global.missile_CIC_unit_array value = 2 index = 146 }
+	add_to_array = { array = global.missile_duration_unit_array value = 200 index = 146 }
+}

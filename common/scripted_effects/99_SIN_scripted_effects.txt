@@ -1,0 +1,76 @@
+# Author(s): BirdyBoi, BlackSyX
+# Mentor: BirdyBoi & Luigi IV (aka MD's Fijian Nationalist)
+# --------------------
+#
+# This is a part of Singapore scripted effect place.
+#
+# Happy Coding!
+#
+# © Millenium Dawn 2016-2026
+
+SIN_calculate_singaporean_trade_agreements = {
+	set_variable = { SIN_foreign_influence_strength = signed_trade_agreements }
+	set_variable = { SIN_bureaucracy_cost_multiplier_modifier_strength = signed_trade_agreements }
+	# Tariff Income Generates in the Money System
+
+	multiply_variable = { SIN_foreign_influence_strength = 10 }
+	multiply_variable = { SIN_bureaucracy_cost_multiplier_modifier_strength = 10 }
+
+	multiply_variable = { SIN_foreign_influence_strength = 0.002 }
+	multiply_variable = { SIN_bureaucracy_cost_multiplier_modifier_strength = 0.002 }
+
+	clamp_variable = { var = SIN_foreign_influence_strength min = 0 max = 0.30 }
+	clamp_variable = { var = SIN_bureaucracy_cost_multiplier_modifier_strength min = 0 max = 0.30 }
+}
+
+SIN_censorship_law_increase = {
+	if = { limit = { has_idea = SIN_loose_censorship_idea }
+		swap_ideas = {
+			remove_idea = SIN_loose_censorship_idea
+			add_idea = SIN_medium_censorship_idea
+		}
+	}
+	else_if = { limit = { has_idea = SIN_medium_censorship_idea }
+		swap_ideas = {
+			remove_idea = SIN_medium_censorship_idea
+			add_idea = SIN_harsh_censorship_idea
+		}
+	}
+	else_if = { limit = { has_idea = SIN_harsh_censorship_idea }
+		swap_ideas = {
+			remove_idea = SIN_harsh_censorship_idea
+			add_idea = SIN_extreme_censorship_idea
+		}
+	}
+}
+
+SIN_censorship_law_decrease = {
+	if = { limit = { has_idea = SIN_extreme_censorship_idea }
+		swap_ideas = {
+			remove_idea = SIN_extreme_censorship_idea
+			add_idea = SIN_harsh_censorship_idea
+		}
+	}
+	else_if = { limit = { has_idea = SIN_harsh_censorship_idea }
+		swap_ideas = {
+			remove_idea = SIN_harsh_censorship_idea
+			add_idea = SIN_medium_censorship_idea
+		}
+	}
+	else_if = { limit = { has_idea = SIN_medium_censorship_idea }
+		swap_ideas = {
+			remove_idea = SIN_medium_censorship_idea
+			add_idea = SIN_loose_censorship_idea
+		}
+	}
+}
+
+##Build Offmap Renewable Energy Infrastructure
+SIN_offmap_renewable_energy_infrastructure = {
+	add_offsite_building = {
+		type = renewable_energy_infra
+		level = 1
+	}
+	set_temp_variable = { treasury_change = -8.5 }
+	modify_treasury_effect = yes
+}
