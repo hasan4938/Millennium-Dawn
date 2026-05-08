@@ -6410,6 +6410,16 @@ country_event = {
 			base = 1
 		}
 	}
+	option = {
+		name = AfghanistanBorderWars.8.b
+		trigger = {
+			NOT = {
+				original_tag = AFG
+				original_tag = TAL
+			}
+		}
+		ai_chance = { base = 1 }
+	}
 }
 
 # Inconclusive Battle
