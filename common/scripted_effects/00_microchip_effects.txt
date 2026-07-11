@@ -20,6 +20,137 @@ microchip_startup = {
 		}
 		add_dynamic_modifier = { modifier = civilian_microchip_consumption_modifier }
 	}
+
+	# Apply modifiers for pre-researched starting technologies
+	if = {
+		limit = { has_tech = microchip_production_2 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_3 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_4 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_5 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_6 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_7 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_8 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_9 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = microchip_production_10 }
+		modify_building_resources = {
+			building = microchip_plant
+			resource = microchips
+			amount = 1
+		}
+	}
+
+	if = {
+		limit = { has_tech = composite_production_2 }
+		modify_building_resources = {
+			building = composite_plant
+			resource = composites
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = composite_production_3 }
+		modify_building_resources = {
+			building = composite_plant
+			resource = composites
+			amount = 1
+		}
+	}
+	if = {
+		limit = { has_tech = composite_production_4 }
+		modify_building_resources = {
+			building = composite_plant
+			resource = composites
+			amount = 2
+		}
+	}
+	if = {
+		limit = { has_tech = composite_production_5 }
+		modify_building_resources = {
+			building = composite_plant
+			resource = composites
+			amount = 2
+		}
+	}
+	if = {
+		limit = { has_tech = composite_production_6 }
+		modify_building_resources = {
+			building = composite_plant
+			resource = composites
+			amount = 2
+		}
+	}
+	if = {
+		limit = { has_tech = composite_production_7 }
+		modify_building_resources = {
+			building = composite_plant
+			resource = composites
+			amount = 2
+		}
+	}
+	if = {
+		limit = { has_tech = composite_production_8 }
+		modify_building_resources = {
+			building = composite_plant
+			resource = composites
+			amount = 2
+		}
+	}
 }
 
 #this auto-adds composites for nations that need only one building. This needs more work for nations that start w/ multiples
