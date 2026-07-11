@@ -1,4 +1,4 @@
-capital = 742
+﻿capital = 742
 2000.1.1 = {
 	set_variable = { currency_strength = 1.1 }
 	set_cosmetic_tag = AST
@@ -131,7 +131,8 @@ capital = 742
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+	else = {
 			set_oob = "AST_2000_nonnsb"
 
 			set_technology = {
@@ -149,7 +150,7 @@ capital = 742
 				attack_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	set_naval_oob = "AST_2000_naval_mtg"
 
@@ -338,7 +339,8 @@ capital = 742
 			obsolete = yes
 		}
 
-		else = {
+		}
+else = {
 			set_air_oob = "AST_2000_nonbba"
 
 			set_technology = {
@@ -361,7 +363,7 @@ capital = 742
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 
 	complete_special_project = sp:sp_helicopter_project
 

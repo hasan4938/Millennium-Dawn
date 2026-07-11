@@ -1,4 +1,4 @@
-capital = 710
+﻿capital = 710
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 4.775 }
@@ -45,7 +45,8 @@ capital = 710
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "NKR_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -60,7 +61,7 @@ capital = 710
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

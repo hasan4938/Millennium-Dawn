@@ -1,4 +1,4 @@
-capital = 406
+﻿capital = 406
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 5.529 }
@@ -41,12 +41,13 @@ capital = 406
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 5.0

@@ -1,4 +1,4 @@
-capital = 319
+﻿capital = 319
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
 	set_cosmetic_tag = EGU_AUTH
@@ -39,21 +39,23 @@ capital = 319
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				Anti_Air_0 = 1
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "EGU_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "EGU_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

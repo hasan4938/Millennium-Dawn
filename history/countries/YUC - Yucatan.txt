@@ -1,4 +1,4 @@
-capital = 840
+﻿capital = 840
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = dynamic_flag
@@ -98,7 +98,8 @@ capital = 840
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -111,7 +112,7 @@ capital = 840
 				Rec_tank_2 = 1
 			}
 		}
-	}
+	
 
 	set_technology = {
 			corvette_hull_1 = 1

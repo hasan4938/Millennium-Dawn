@@ -1,4 +1,4 @@
-capital = 264
+﻿capital = 264
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	set_cosmetic_tag = MOZ
@@ -22,7 +22,8 @@ capital = 264
 			mbt_tech_ops = 1
 			mbt_tech = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "MOZ_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -35,15 +36,16 @@ capital = 264
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "MOZ_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "MOZ_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

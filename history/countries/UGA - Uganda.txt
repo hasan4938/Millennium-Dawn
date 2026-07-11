@@ -1,4 +1,4 @@
-capital = 249
+﻿capital = 249
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
 	if = {
@@ -11,7 +11,8 @@ capital = 249
 			nsb_artillery_0 = 1
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "UGA_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -25,7 +26,7 @@ capital = 249
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	set_cosmetic_tag = UGA
 	set_country_flag = dynamic_flag
@@ -95,13 +96,14 @@ capital = 249
 			target = MLC
 			autonomy_state = autonomy_satellite_state_colored
 		}
-		else = {
+		}
+	else = {
 			set_autonomy = {
 				target = MLC
 				autonomy_state = autonomy_satellite_state
 			}
 		}
-	}
+	
 
 	add_opinion_modifier = { target = TNZ modifier = swahili_speaking }
 	reverse_add_opinion_modifier = { target = TNZ modifier = swahili_speaking }

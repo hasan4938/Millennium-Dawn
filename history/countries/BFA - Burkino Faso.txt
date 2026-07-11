@@ -1,4 +1,4 @@
-capital = 350
+﻿capital = 350
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	set_cosmetic_tag = BFA
@@ -80,7 +80,8 @@ capital = 350
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				Early_APC = 1
@@ -89,7 +90,7 @@ capital = 350
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	add_opinion_modifier = { target = MAL modifier = french_speaking }
 	reverse_add_opinion_modifier = { target = MAL modifier = french_speaking }

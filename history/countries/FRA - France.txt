@@ -1,4 +1,4 @@
-capital = 56
+﻿capital = 56
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	add_ideas = { partially_nationalized_healthcare partial_environmental_protections extensive_maintenance }
@@ -984,7 +984,8 @@ capital = 56
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
 		complete_special_project = sp:sp_tank_nera_armor
-		else = {
+		}
+	else = {
 			set_oob = "FRA_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -1024,7 +1025,7 @@ capital = 56
 				obsolete = yes
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		complete_special_project = sp:sp_awacs_project
@@ -1429,7 +1430,8 @@ capital = 56
 			icon = "gfx/interface/technologies/FRA/AIR/NAV1.dds"
 			model = "FRA_atlantic2_entity"
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "FRA_2000_nonbba"
 			create_equipment_variant = {
 				name = "Dassault Mirage III"
@@ -1470,7 +1472,7 @@ capital = 56
 				awacs_plane1 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "La Resistance" }
 		create_intelligence_agency = {
 			name = "Directorate-General for External Security (DGSE)"
@@ -1696,10 +1698,11 @@ capital = 56
 
 		# Set the Nuclear Warhead Stance
 		complete_special_project = sp:sp_nuclear_warhead_program
-		else = {
+		}
+else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 
 	set_technology = {

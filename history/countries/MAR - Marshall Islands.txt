@@ -1,4 +1,4 @@
-capital = 820
+﻿capital = 820
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	oob = "MAR_2000"
@@ -66,12 +66,13 @@ capital = 820
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

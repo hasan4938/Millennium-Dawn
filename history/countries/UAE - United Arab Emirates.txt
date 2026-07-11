@@ -1,4 +1,4 @@
-capital = 180
+﻿capital = 180
 2000.1.1 = {
 	set_variable = { currency_strength = 0.9 }
 	set_cosmetic_tag = UAE_AUTH
@@ -73,7 +73,8 @@ capital = 180
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "UAE_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -89,14 +90,15 @@ capital = 180
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "UAE_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "UAE_2000_nonbba"
 		}
-	}
+	
 	set_naval_oob = "UAE_2000_naval_mtg"
 
 	set_variable = { fossil_fuel_industry_opinion = 70 }

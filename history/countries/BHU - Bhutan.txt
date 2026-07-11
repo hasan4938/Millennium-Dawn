@@ -1,4 +1,4 @@
-capital = 484
+﻿capital = 484
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
 	oob = "BHU_2000"
@@ -73,12 +73,13 @@ capital = 484
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

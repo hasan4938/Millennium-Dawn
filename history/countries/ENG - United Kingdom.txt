@@ -1,4 +1,4 @@
-capital = 13
+﻿capital = 13
 2000.1.1 = {
 	set_variable = { currency_strength = 1.1 }
 	set_cosmetic_tag = ENG
@@ -711,7 +711,8 @@ capital = 13
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
 		complete_special_project = sp:sp_tank_nera_armor
-		else = {
+		}
+	else = {
 			set_oob = "ENG_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -804,7 +805,7 @@ capital = 13
 				obsolete = yes
 			}
 		}
-	}
+	
 	set_naval_oob = "ENG_2000_naval_mtg"
 
 	if = {
@@ -1166,7 +1167,8 @@ capital = 13
 			obsolete = yes
 			icon = "gfx/interface/technologies/ENG/AIR/Skyvan.dds"
 		}
-		else = {
+		}
+else = {
 			set_air_oob = "ENG_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -1211,7 +1213,7 @@ capital = 13
 				obsolete = yes
 			}
 		}
-	}
+	
 	complete_special_project = sp:sp_nuclear_warhead_program
 
 	set_variable = { enrichment_facilities = 1 }
@@ -1768,10 +1770,11 @@ capital = 13
 		complete_special_project = sp:sp_missile_project
 
 		set_variable = { num_launchers_set = 2 }
-		else = {
+		}
+else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 
 	# Naval Technology

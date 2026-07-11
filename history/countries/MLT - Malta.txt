@@ -1,4 +1,4 @@
-capital = 85
+﻿capital = 85
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	if = {
@@ -10,13 +10,14 @@ capital = 85
 			helo_ops_tech = 1
 			nsb_attack_helicopter_tech_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "MLT_2000_nonnsb"
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_cosmetic_tag = MLT
 	set_variable = { gdp_per_capita = 27.519 }

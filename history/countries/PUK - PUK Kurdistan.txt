@@ -1,4 +1,4 @@
-capital = 630
+﻿capital = 630
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = PUK
@@ -44,7 +44,8 @@ capital = 630
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "PUK_2000_nonnsb"
 			set_technology = {
 				SP_R_arty_0 = 1
@@ -53,7 +54,7 @@ capital = 630
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

@@ -1,4 +1,4 @@
-capital = 543
+﻿capital = 543
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	#oob = "VAN_2000"
@@ -34,12 +34,13 @@ capital = 543
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

@@ -1,4 +1,4 @@
-capital = 298
+﻿capital = 298
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	oob = "AGL_2000"
@@ -15,10 +15,11 @@ capital = 298
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "AGL_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "AGL_2000_nonbba"
 		}
-	}
+	
 
 	set_variable = { gdp_per_capita = 4.728 }
 
@@ -130,12 +131,13 @@ capital = 298
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 24.5

@@ -1,4 +1,4 @@
-capital = 149
+﻿capital = 149
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = PMR
@@ -141,7 +141,8 @@ capital = 149
 			obsolete = yes
 			icon = "gfx/interface/technologies/PMR/LAND/pribor2.dds"
 		}
-		else = {
+		}
+	else = {
 			set_oob = "PMR_2000_nonnsb"
 
 			set_technology = {
@@ -155,7 +156,7 @@ capital = 149
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PMR_2000_bba"
 	}

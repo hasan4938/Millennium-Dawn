@@ -1,4 +1,4 @@
-capital = 337
+﻿capital = 337
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_cosmetic_tag = NIG
@@ -36,7 +36,8 @@ capital = 337
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "NIG_2000_nonnsb"
 
 			set_technology = {
@@ -51,16 +52,17 @@ capital = 337
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "NIG_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "NIG_2000_nonbba"
 		}
-	}
+	
 	add_ideas = {
 		partially_privatized_healthcare
 		economic_motivated_mining

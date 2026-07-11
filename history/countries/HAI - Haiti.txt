@@ -1,4 +1,4 @@
-capital = 860
+﻿capital = 860
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	set_cosmetic_tag = HAI
@@ -120,12 +120,13 @@ capital = 860
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 61

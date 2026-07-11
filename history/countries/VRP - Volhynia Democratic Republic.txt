@@ -1,4 +1,4 @@
-capital = 1110
+﻿capital = 1110
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	#oob = "VRP_2000"
@@ -135,7 +135,8 @@ capital = 1110
 			armor_tech = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -167,7 +168,7 @@ capital = 1110
 				AA_upgrade_3 = 1
 			}
 		}
-	}
+	
 
 	set_variable = { var = treasury value = 5.00 }
 	set_variable = { var = corporate_tax_rate value = 20 }

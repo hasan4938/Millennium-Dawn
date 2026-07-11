@@ -1,4 +1,4 @@
-capital = 162
+﻿capital = 162
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 15.223 }
@@ -82,13 +82,14 @@ capital = 162
 			nsb_Anti_Air_0 = 1
 
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

@@ -1,4 +1,4 @@
-capital = 91
+﻿capital = 91
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	add_ideas = { partially_nationalized_healthcare partial_environmental_protections extensive_maintenance }
@@ -554,7 +554,8 @@ capital = 91
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+	else = {
 			set_oob = "SPR_2000_nonnsb"
 
 			set_technology = {
@@ -586,7 +587,7 @@ capital = 91
 				Arty_upgrade_2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SPR_2000_bba"
@@ -718,7 +719,8 @@ capital = 91
 			model = "GEN_eurofighter_entity"
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "SPR_2000_nonbba"
 
 			set_technology = {
@@ -757,7 +759,7 @@ capital = 91
 				awacs_plane1 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 
 		set_technology = {
@@ -797,10 +799,11 @@ capital = 91
 
 		set_variable = { num_launchers_set = 6 }
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_technology = {
 		COMSAT1 = 1

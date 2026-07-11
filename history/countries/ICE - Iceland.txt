@@ -1,4 +1,4 @@
-capital = 7
+﻿capital = 7
 2000.1.1 = {
 	set_variable = { currency_strength = 1.05 }
 	set_cosmetic_tag = ICE
@@ -103,12 +103,13 @@ capital = 7
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	#2000 NATO Relations
 	add_opinion_modifier = { target = BEL modifier = NATO_member_modifier }

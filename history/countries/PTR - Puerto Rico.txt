@@ -1,4 +1,4 @@
-capital = 815
+﻿capital = 815
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 50.170 }
@@ -498,7 +498,8 @@ capital = 815
 		complete_special_project = sp:sp_armoured_vehicle_project
 		complete_special_project = sp:sp_medium_naval_nuclear_engines
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				MBT_2 = 1
@@ -539,7 +540,7 @@ capital = 815
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 
 	# Naval Technology
 	set_technology = {
@@ -700,7 +701,8 @@ capital = 815
 			complete_special_project = sp:sp_stealth_technology
 			## End BBA Designs ##
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 				Strike_fighter1 = 1
@@ -752,7 +754,7 @@ capital = 815
 				cv_awacs_plane1 = 1
 			}
 		}
-	}
+	
 
 
 

@@ -1,4 +1,4 @@
-capital = 676
+﻿capital = 676
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = URA_communism
@@ -887,7 +887,8 @@ capital = 676
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+else = {
 			set_technology = {
 				MBT_1 = 1
 				MBT_2 = 1
@@ -958,7 +959,7 @@ capital = 676
 				obsolete = yes
 			}
 		}
-	}
+	
 
 
 	#Influence system

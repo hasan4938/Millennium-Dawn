@@ -1,4 +1,4 @@
-capital = 102
+﻿capital = 102
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	add_ideas = { partially_nationalized_healthcare partial_environmental_protections extensive_maintenance }
@@ -272,7 +272,8 @@ capital = 102
 			}
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "FIN_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -295,7 +296,7 @@ capital = 102
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		complete_special_project = sp:sp_awacs_project
@@ -323,7 +324,8 @@ capital = 102
 			tgp_recon_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "FIN_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -333,7 +335,7 @@ capital = 102
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -341,10 +343,11 @@ capital = 102
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "FIN_2000_naval_mtg"
 	create_equipment_variant = {
 		name = "Pohjanmaa Class"

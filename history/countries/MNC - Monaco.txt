@@ -1,4 +1,4 @@
-capital = 946
+﻿capital = 946
 oob = "GENERIC_OOB"
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
@@ -146,12 +146,13 @@ oob = "GENERIC_OOB"
 		set_technology = {
 			early_airframe_designs = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "No Step Back" }
 
@@ -169,7 +170,8 @@ oob = "GENERIC_OOB"
 			nsb_Arty_upgrade_2 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				SP_arty_0 = 1
@@ -185,7 +187,7 @@ oob = "GENERIC_OOB"
 				Arty_upgrade_2 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 89.1

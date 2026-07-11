@@ -1,4 +1,4 @@
-capital = 81
+﻿capital = 81
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	add_ideas = { partially_nationalized_healthcare partial_environmental_protections extensive_maintenance }
@@ -734,7 +734,8 @@ capital = 81
 			icon = "gfx/interface/technologies/ITA/LAND/SPA3_alt1.dds"
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+	else = {
 			set_oob = "ITA_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -776,7 +777,7 @@ capital = 81
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "ITA_2000_naval_mtg"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -1015,7 +1016,8 @@ capital = 81
 			icon = "gfx/interface/technologies/ITA/AIR/MR3.dds"
 			model = "GEN_eurofighter_entity"
 		}
-		else = {
+		}
+else = {
 			set_air_oob = "ITA_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -1046,7 +1048,7 @@ capital = 81
 				naval_plane3 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare
@@ -1377,10 +1379,11 @@ capital = 81
 		complete_special_project = sp:sp_missile_project
 
 		set_variable = { num_launchers_set = 6 }
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 		#Todaro Class /type 212 german version
 		create_equipment_variant = {

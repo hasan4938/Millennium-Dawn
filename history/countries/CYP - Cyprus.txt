@@ -1,4 +1,4 @@
-capital = 145
+﻿capital = 145
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	set_country_flag = dynamic_flag
@@ -54,7 +54,8 @@ capital = 145
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "CYP_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -67,7 +68,7 @@ capital = 145
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

@@ -1,4 +1,4 @@
-capital = 786
+﻿capital = 786
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 50.170 }
@@ -160,7 +160,8 @@ capital = 786
 		complete_special_project = sp:sp_armoured_vehicle_project
 		complete_special_project = sp:sp_tank_nera_armor
 		complete_special_project = sp:sp_ground_fireandforget
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				MBT_2 = 1
@@ -201,7 +202,7 @@ capital = 786
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -252,7 +253,8 @@ capital = 786
 
 			complete_special_project = sp:sp_stealth_technology
 			## End BBA Designs ##
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 				Strike_fighter1 = 1
@@ -293,7 +295,7 @@ capital = 786
 				cv_awacs_plane1 = 1
 			}
 		}
-	}
+	
 
 
 

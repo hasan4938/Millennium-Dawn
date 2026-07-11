@@ -1,4 +1,4 @@
-capital = 1222
+﻿capital = 1222
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	oob = "AIA_2000"
@@ -75,7 +75,8 @@ capital = 1222
 			gen_3_light = 1
 			early_weapons = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 
@@ -84,7 +85,7 @@ capital = 1222
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "No Step Back" }
 
@@ -96,7 +97,8 @@ capital = 1222
 			nsb_artillery_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -109,7 +111,7 @@ capital = 1222
 				SP_R_arty_0 = 1
 			}
 		}
-	}
+	
 
 	declare_war_on = {
 		target = JUB

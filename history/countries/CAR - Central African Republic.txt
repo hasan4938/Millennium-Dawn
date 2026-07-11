@@ -1,4 +1,4 @@
-capital = 324
+﻿capital = 324
 2000.1.1 = {
 	set_variable = { currency_strength = 0.35 }
 	set_cosmetic_tag = CAR
@@ -43,7 +43,8 @@ capital = 324
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "CAR_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -54,7 +55,7 @@ capital = 324
 				Early_APC = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

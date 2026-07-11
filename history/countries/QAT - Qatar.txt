@@ -1,4 +1,4 @@
-capital = 181
+﻿capital = 181
 2000.1.1 = {
 	set_variable = { currency_strength = 0.9 }
 	set_cosmetic_tag = QAT
@@ -16,7 +16,8 @@ capital = 181
 			nsb_artillery_0 = 1
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+else = {
 			set_oob = "QAT_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -30,14 +31,15 @@ capital = 181
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "QAT_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "QAT_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

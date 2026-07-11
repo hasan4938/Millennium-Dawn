@@ -1,4 +1,4 @@
-capital = 866
+﻿capital = 866
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 8.709 }
@@ -101,13 +101,14 @@ capital = 866
 
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				SP_Anti_Air_0 = 1
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_variable = { maritime_industry_opinion = 60 }
 	set_variable = { small_medium_business_owners_opinion = 40 }

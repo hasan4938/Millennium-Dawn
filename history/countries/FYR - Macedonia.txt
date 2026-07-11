@@ -1,4 +1,4 @@
-capital = 136
+﻿capital = 136
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = FYR
@@ -58,7 +58,8 @@ capital = 136
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "FYR_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -67,7 +68,7 @@ capital = 136
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

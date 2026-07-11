@@ -1,4 +1,4 @@
-capital = 422
+﻿capital = 422
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_cosmetic_tag = PAK
@@ -250,7 +250,8 @@ capital = 422
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+	else = {
 			set_oob = "PAK_2000_nonnsb"
 
 			set_technology = {
@@ -275,7 +276,7 @@ capital = 422
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PAK_2000_bba"
@@ -294,7 +295,8 @@ capital = 422
 			air_weapons_1 = 1
 			countermeasures_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "PAK_2000_nonbba"
 
 			set_technology = {
@@ -303,7 +305,7 @@ capital = 422
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		complete_special_project = sp:sp_nuclear_warhead_program
 		complete_special_project = sp:sp_missile_project
@@ -351,10 +353,11 @@ capital = 422
 
 		set_variable = { num_launchers_set = 6 }
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "PAK_2000_naval_mtg"
 
 	add_opinion_modifier = { target = RAJ modifier = strategic_rivals }

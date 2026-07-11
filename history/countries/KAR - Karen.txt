@@ -1,4 +1,4 @@
-capital = 501
+﻿capital = 501
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = dynamic_flag
@@ -67,12 +67,13 @@ capital = 501
 		set_technology = {
 			nsb_Anti_air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_air_0 = 1
 			}
 		}
-	}
+	
 
 	add_opinion_modifier = { target = SHN modifier = fellow_rebel_group }
 	reverse_add_opinion_modifier = { target = SHN modifier = fellow_rebel_group }

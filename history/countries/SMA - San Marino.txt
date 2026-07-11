@@ -1,4 +1,4 @@
-capital = 948
+﻿capital = 948
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_oob = "SMA_2000"
@@ -131,12 +131,13 @@ capital = 948
 		set_technology = {
 			early_airframe_designs = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "No Step Back" }
 
@@ -153,7 +154,8 @@ capital = 948
 			nsb_Arty_upgrade_2 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -172,7 +174,7 @@ capital = 948
 				Arty_upgrade_2 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 57

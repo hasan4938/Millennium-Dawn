@@ -1,4 +1,4 @@
-capital = 208
+﻿capital = 208
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = PAL
@@ -109,13 +109,12 @@ capital = 208
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
-			set_technology = {
-				Anti_Air_0 = 1
-			}
-		}
-		else = {
-			set_oob = "PAL_2000"
+	}
+	else = {
+		set_oob = "PAL_2000"
+
+		set_technology = {
+			Anti_Air_0 = 1
 		}
 	}
 	#Statehood system
@@ -326,13 +325,14 @@ capital = 208
 			target = HAM
 			autonomy_state = autonomy_provisional_security_of_gaza
 		}
-		else = {
+		}
+else = {
 			set_autonomy = {
 				target = HAM
 				autonomy_state = autonomy_provisional_security_of_gaza
 			}
 		}
-	}
+	
 
 	create_country_leader = {
 		name = "Yasser Arafat"

@@ -1,4 +1,4 @@
-capital = 835
+﻿capital = 835
 2000.1.1 = {
 	set_variable = { currency_strength = 0.75 }
 	set_cosmetic_tag = MEX
@@ -127,7 +127,8 @@ capital = 835
 			icon = "gfx/interface/technologies/MEX/LAND/REC_DN_V_Buffalo.dds"
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "MEX_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -140,14 +141,15 @@ capital = 835
 				Rec_tank_2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "MEX_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "MEX_2000_nonbba"
 		}
-	}
+	
 
 	set_variable = { industrial_conglomerates_opinion = 80 }
 	set_variable = { small_medium_business_owners = 75 }

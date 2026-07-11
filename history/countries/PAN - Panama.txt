@@ -1,13 +1,14 @@
-capital = 853
+﻿capital = 853
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PAN_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "PAN_2000_nonbba"
 		}
-	}
+	
 
 	oob = "PAN_2000"
 
@@ -92,12 +93,13 @@ capital = 853
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_opinion_modifier = { target = URG modifier = spanish_speaking }
 	reverse_add_opinion_modifier = { target = URG modifier = spanish_speaking }

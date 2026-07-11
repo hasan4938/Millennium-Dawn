@@ -1,4 +1,4 @@
-capital = 50
+﻿capital = 50
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = FLN
@@ -184,7 +184,8 @@ capital = 50
 			icon = "GFX_FRA_Rec_tank_1_medium"
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "FLN_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -199,20 +200,21 @@ capital = 50
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "FLN_2000_bba"
 		set_technology = {
 			early_airframe_designs = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "FLN_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "FLN_2000_naval_mtg"
 
 	#WWielingen class

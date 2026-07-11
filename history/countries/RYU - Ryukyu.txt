@@ -1,4 +1,4 @@
-capital = 618
+﻿capital = 618
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = RYU_KARIYUSHI
@@ -68,12 +68,13 @@ capital = 618
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

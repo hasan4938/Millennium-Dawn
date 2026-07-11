@@ -1,4 +1,4 @@
-capital = 126
+﻿capital = 126
 2000.1.1 = {
 	set_variable = { currency_strength = 0.75 }
 	set_cosmetic_tag = CRO
@@ -241,7 +241,8 @@ capital = 126
 		}
 
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+	else = {
 			set_oob = "CRO_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -267,7 +268,7 @@ capital = 126
 				AA_upgrade_1 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -277,13 +278,14 @@ capital = 126
 			early_airframe_designs = 1
 			early_weapons = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "CRO_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "CRO_2000_naval_mtg"
 
 	### Kralj Class

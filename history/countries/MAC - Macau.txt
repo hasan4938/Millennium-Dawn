@@ -1,4 +1,4 @@
-capital = 1106
+﻿capital = 1106
 2000.1.1 = {
 	set_variable = { currency_strength = 0.75 }
 	set_cosmetic_tag = MAC_autonomy_special_administrative_region
@@ -77,12 +77,13 @@ capital = 1106
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	### MAC ###
 	#Influence system

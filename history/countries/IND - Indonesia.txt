@@ -1,4 +1,4 @@
-capital = 631
+﻿capital = 631
 ##State Modifiers
 622 = { add_dynamic_modifier = { modifier = IND_Aceh_insurgency } }
 638 = { add_dynamic_modifier = { modifier = IND_papua_resist } }
@@ -100,7 +100,8 @@ capital = 631
 			nsb_transport_helicopter_2 = 1
 			nsb_transport_helicopter_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "IND_2000_nonnsb"
 
 			set_technology = {
@@ -117,7 +118,7 @@ capital = 631
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "IND_2000_bba"
@@ -148,7 +149,8 @@ capital = 631
 			}
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "IND_2000_nonbba"
 			set_technology = {
 				early_bomber = 1
@@ -156,7 +158,7 @@ capital = 631
 				transport_plane2 = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "IND_2000_naval_mtg"
 
 	add_ideas = {

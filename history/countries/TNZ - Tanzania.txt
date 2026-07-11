@@ -1,4 +1,4 @@
-capital = 255
+﻿capital = 255
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
@@ -14,7 +14,8 @@ capital = 255
 			nsb_artillery_1 = 1
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "TNZ_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -31,7 +32,7 @@ capital = 255
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -46,14 +47,15 @@ capital = 255
 			redundant_1 = 1
 			flying_wing_design = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "TNZ_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
 				MR_Fighter1 = 1
 			}
 		}
-	}
+	
 
 
 	set_cosmetic_tag = TNZ

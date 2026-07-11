@@ -1,4 +1,4 @@
-capital = 114
+﻿capital = 114
 2000.1.1 = {
 	set_variable = { currency_strength = 0.75 }
 	set_cosmetic_tag = POL
@@ -327,7 +327,8 @@ capital = 114
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+else = {
 			set_oob = "POL_2000_nonnsb"
 
 			set_technology = {
@@ -364,7 +365,7 @@ capital = 114
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "POL_2000_bba"
@@ -415,7 +416,8 @@ capital = 114
 		}
 
 
-		else = {
+		}
+	else = {
 			set_air_oob = "POL_2000_nonbba"
 
 			set_technology = {
@@ -437,7 +439,7 @@ capital = 114
 				L_Strike_fighter2 = 1
 			}
 		}
-	}
+	
 
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
@@ -450,10 +452,11 @@ capital = 114
 
 		set_variable = { num_launchers_set = 1 }
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_technology = {
 		integrated_transportation_system = 1

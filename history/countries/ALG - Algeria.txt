@@ -1,4 +1,4 @@
-capital = 386
+﻿capital = 386
 set_research_slots = 4
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
@@ -68,7 +68,8 @@ set_research_slots = 4
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+	else = {
 			set_oob = "ALG_2000_nonnsb"
 
 			set_technology = {
@@ -85,14 +86,15 @@ set_research_slots = 4
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ALG_2000_bba"
 		send_embargo = ISR
-		else = {
+		}
+	else = {
 			set_air_oob = "ALG_2000_nonbba"
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -100,10 +102,11 @@ set_research_slots = 4
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "ALG_2000_naval_mtg"
 
 	#Djebel Chenoua Class https://en.wikipedia.org/wiki/Djebel_Chenoua-class_corvette

@@ -1,4 +1,4 @@
-capital = 652
+﻿capital = 652
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.7 }
@@ -3734,7 +3734,8 @@ capital = 652
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+else = {
 			set_oob = "SOV_2000_nonnsb"
 
 			set_technology = {
@@ -4030,7 +4031,7 @@ capital = 652
 				obsolete = yes
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		complete_special_project = sp:sp_awacs_project
@@ -4882,7 +4883,8 @@ capital = 652
 			}
 			cost_factor = 0
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "SOV_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -4958,7 +4960,7 @@ capital = 652
 				obsolete = yes
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			ballistic_missile = 1
@@ -5017,10 +5019,11 @@ capital = 652
 
 		# Set the Nuclear Warhead Stance
 		complete_special_project = sp:sp_nuclear_warhead_program
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_technology = {
 		nuclear_technology = 1

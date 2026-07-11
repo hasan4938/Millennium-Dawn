@@ -1,4 +1,4 @@
-capital = 91
+﻿capital = 91
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 34.757 }
@@ -47,14 +47,15 @@ capital = 91
 			mbt_tech_ops = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				early_APC = 1
 				Early_APC = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

@@ -1,4 +1,4 @@
-capital = 762
+﻿capital = 762
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = dynamic_flag
@@ -170,7 +170,8 @@ capital = 762
 			armor_tech = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				Early_APC = 1
@@ -191,7 +192,7 @@ capital = 762
 				Rec_tank_1 = 1
 			}
 		}
-	}
+	
 
 	set_technology = {
 			corvette_hull_1 = 1
@@ -274,14 +275,15 @@ capital = 762
 			special_mad_1 = 1
 			flying_wing_design = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_bomber = 1
 				naval_plane1 = 1
 				naval_plane2 = 1
 			}
 		}
-	}
+	
 
 	recruit_character = QUE_air_chief
 

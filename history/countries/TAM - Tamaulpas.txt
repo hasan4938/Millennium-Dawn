@@ -1,4 +1,4 @@
-capital = 835
+﻿capital = 835
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 17.943 }
@@ -93,7 +93,8 @@ capital = 835
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -106,7 +107,7 @@ capital = 835
 				Rec_tank_2 = 1
 			}
 		}
-	}
+	
 	set_technology = {
 			corvette_hull_1 = 1
 

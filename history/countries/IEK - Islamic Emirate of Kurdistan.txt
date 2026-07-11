@@ -1,4 +1,4 @@
-capital = 1078
+﻿capital = 1078
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = dynamic_flag
@@ -42,7 +42,8 @@ capital = 1078
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "IEK_2000_nonnsb"
 			set_technology = {
 				SP_R_arty_0 = 1
@@ -51,7 +52,7 @@ capital = 1078
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

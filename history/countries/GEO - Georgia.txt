@@ -1,4 +1,4 @@
-capital = 707
+﻿capital = 707
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = GEO
@@ -75,7 +75,8 @@ capital = 707
 			nsb_artillery_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "GEO_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -90,13 +91,14 @@ capital = 707
 				SP_R_arty_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "GEO_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "GEO_2000_nonbba"
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -104,10 +106,11 @@ capital = 707
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

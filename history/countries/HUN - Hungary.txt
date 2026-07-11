@@ -1,4 +1,4 @@
-capital = 121
+﻿capital = 121
 2000.1.1 = {
 	set_variable = { currency_strength = 0.75 }
 	set_country_flag = dynamic_flag
@@ -120,7 +120,8 @@ capital = 121
 			model = "SOV_BMP1_entity"
 		}
 
-		else = {
+		}
+else = {
 			set_oob = "HUN_2000_nonnsb"
 
 			set_technology = {
@@ -136,15 +137,16 @@ capital = 121
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "HUN_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "HUN_2000_nonbba"
 		}
-	}
+	
 
 	set_cosmetic_tag = HUN
 
@@ -370,10 +372,11 @@ capital = 121
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_variable = { overall_productivity = 621 }
 

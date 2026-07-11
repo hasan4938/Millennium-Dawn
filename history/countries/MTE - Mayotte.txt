@@ -1,4 +1,4 @@
-
+﻿
 capital = 940
 oob = "GENERIC_OOB"
 2000.1.1 = {
@@ -11,12 +11,13 @@ oob = "GENERIC_OOB"
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_technology = {
 		integrated_transportation_system = 1

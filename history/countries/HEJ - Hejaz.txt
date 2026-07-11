@@ -1,4 +1,4 @@
-capital = 177
+﻿capital = 177
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = dynamic_flag
@@ -65,13 +65,14 @@ capital = 177
 			nsb_Anti_Air_0 = 1
 
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	#UAR
 	add_to_array = { global.arabic_countries = THIS }	#From is_arabic_nation trigger

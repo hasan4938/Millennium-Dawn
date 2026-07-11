@@ -1,4 +1,4 @@
-capital = 51
+﻿capital = 51
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	add_ideas = { partially_nationalized_healthcare partial_environmental_protections extensive_maintenance }
@@ -250,7 +250,8 @@ capital = 51
 			 }
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "BEL_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -265,20 +266,21 @@ capital = 51
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BEL_2000_bba"
 		set_technology = {
 			early_airframe_designs = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "BEL_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -286,10 +288,11 @@ capital = 51
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "BEL_2000_naval_mtg"
 
 	# Wielingen class

@@ -1,4 +1,4 @@
-
+﻿
 capital = 877
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
@@ -45,7 +45,8 @@ capital = 877
 
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "GUY_2000_nonnsb"
 			set_technology = {
 				tech_arty_0 = 1
@@ -54,7 +55,7 @@ capital = 877
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 
 	add_ideas = {

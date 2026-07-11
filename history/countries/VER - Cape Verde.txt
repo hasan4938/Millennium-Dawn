@@ -1,4 +1,4 @@
-capital = 398
+﻿capital = 398
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	oob = "VER_2000"
@@ -103,13 +103,14 @@ capital = 398
 			nsb_Anti_Air_0 = 1
 
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 91.0

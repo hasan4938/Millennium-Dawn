@@ -1,4 +1,4 @@
-capital = 172
+﻿capital = 172
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = KUW
@@ -67,7 +67,8 @@ capital = 172
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "KUW_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -82,15 +83,16 @@ capital = 172
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "KUW_2000_bba"
 		send_embargo = ISR
-		else = {
+		}
+	else = {
 			set_air_oob = "KUW_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

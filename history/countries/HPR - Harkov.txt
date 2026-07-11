@@ -1,4 +1,4 @@
-capital = 696
+﻿capital = 696
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = HPR
@@ -70,7 +70,8 @@ capital = 696
 			nsb_artillery_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -91,7 +92,7 @@ capital = 696
 				Arty_upgrade_3 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

@@ -1,4 +1,4 @@
-capital = 53
+﻿capital = 53
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	add_ideas = { partially_nationalized_healthcare partial_environmental_protections extensive_maintenance }
@@ -92,7 +92,8 @@ capital = 53
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				attack_helicopter_1 = 1
 				transport_helicopter_1 = 1
@@ -100,7 +101,7 @@ capital = 53
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -122,7 +123,8 @@ capital = 53
 			tgp_recon_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "LUX_2000_nonbba"
 
 			set_technology = {
@@ -142,7 +144,7 @@ capital = 53
 				L_Strike_fighter2 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

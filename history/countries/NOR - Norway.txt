@@ -1,4 +1,4 @@
-capital = 32
+﻿capital = 32
 2000.1.1 = {
 	set_variable = { currency_strength = 1.05 }
 	set_cosmetic_tag = NOR
@@ -99,7 +99,8 @@ capital = 32
 			icon = "gfx/interface/technologies/NOR/LAND/NM135.dds"
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "NOR_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -127,7 +128,7 @@ capital = 32
 				AA_upgrade_2 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -154,7 +155,8 @@ capital = 32
 			ag_weapons_1 = 1
 			tgp_recon_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "NOR_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -174,7 +176,7 @@ capital = 32
 				L_Strike_fighter2 = 1
 			}
 		}
-	}
+	
 
 	#############################################
 	#Air variants
@@ -445,10 +447,11 @@ capital = 32
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_technology = {
 			corvette_hull_1 = 1
 			corvette_hull_2 = 1

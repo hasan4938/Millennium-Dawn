@@ -1,4 +1,4 @@
-capital = 220
+﻿capital = 220
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	set_cosmetic_tag = SUD
@@ -102,7 +102,8 @@ capital = 220
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+	else = {
 			set_oob = "SUD_2000_nonnsb"
 
 			set_technology = {
@@ -135,14 +136,15 @@ capital = 220
 				obsolete = yes
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SUD_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "SUD_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

@@ -1,4 +1,4 @@
-capital = 522
+﻿capital = 522
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_cosmetic_tag = VIE_AUTH_S
@@ -72,7 +72,8 @@ capital = 522
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "VIE_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -90,7 +91,7 @@ capital = 522
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "VIE_2000_bba"
@@ -104,7 +105,8 @@ capital = 522
 			air_weapons_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "VIE_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -112,7 +114,7 @@ capital = 522
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "Gotterdammerung" }
 
@@ -122,10 +124,11 @@ capital = 522
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "VIE_2000_naval_mtg"
 
 

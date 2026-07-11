@@ -1,4 +1,4 @@
-capital = 131
+﻿capital = 131
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	if = {
@@ -222,7 +222,8 @@ capital = 131
 			obsolete = yes
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+	else = {
 			set_oob = "SER_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -246,7 +247,7 @@ capital = 131
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "SER_2000_naval_mtg"
 
 	if = {
@@ -299,7 +300,8 @@ capital = 131
 			icon = "gfx/interface/technologies/SER/AIR/T2.dds"
 			obsolete = yes
 		}
-		else = {
+		}
+else = {
 			set_air_oob = "SER_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -308,7 +310,7 @@ capital = 131
 				early_bomber = 1
 			}
 		}
-	}
+	
 	# Variables
 	set_variable = { SER_milosevic_strength = 40 }
 	set_variable = { gdp_per_capita = 8.901 }
@@ -526,10 +528,11 @@ capital = 131
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	#Kotor Class
 	create_equipment_variant = {

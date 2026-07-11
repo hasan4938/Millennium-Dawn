@@ -1,4 +1,4 @@
-capital = 215
+﻿capital = 215
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = EGY_AUTH
@@ -252,7 +252,8 @@ capital = 215
 		}
 
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+	else = {
 			set_oob = "EGY_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -273,7 +274,7 @@ capital = 215
 				Early_APC = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "EGY_2000_bba"
 		complete_special_project = sp:sp_awacs_project
@@ -296,7 +297,8 @@ capital = 215
 			special_mad_1 = 1
 			tgp_recon_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "EGY_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -312,7 +314,7 @@ capital = 215
 				naval_plane1 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			ballistic_missile = 1
@@ -348,10 +350,11 @@ capital = 215
 		complete_special_project = sp:sp_missile_project
 
 		set_variable = { num_launchers_set = 6 }
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "EGY_2000_naval_mtg"
 	#El Suez Class
 	create_equipment_variant = {

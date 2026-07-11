@@ -1,4 +1,4 @@
-capital = 705
+﻿capital = 705
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	if = {
@@ -11,7 +11,8 @@ capital = 705
 			nsb_artillery_0 = 1
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "SOO_2017_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -23,7 +24,7 @@ capital = 705
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 
 	set_variable = { gdp_per_capita = 1.103 }

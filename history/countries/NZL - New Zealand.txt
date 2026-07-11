@@ -1,4 +1,4 @@
-capital = 750
+﻿capital = 750
 2000.1.1 = {
 	set_variable = { currency_strength = 1.05 }
 	set_cosmetic_tag = NZL
@@ -128,7 +128,8 @@ capital = 750
 			nsb_transport_helicopter_2 = 1
 			nsb_transport_helicopter_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "NZL_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -140,7 +141,7 @@ capital = 750
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		complete_special_project = sp:sp_awacs_project
@@ -167,7 +168,8 @@ capital = 750
 			naval_weapons_1 = 1
 			air_weapons_2 = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "NZL_2000_nonbba"
 			set_technology = {
 			early_fighter = 1
@@ -178,7 +180,7 @@ capital = 750
 			early_bomber = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = {

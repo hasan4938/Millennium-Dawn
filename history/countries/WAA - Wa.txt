@@ -1,4 +1,4 @@
-capital = 497
+﻿capital = 497
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = WAA_AUTH_S
@@ -85,12 +85,13 @@ capital = 497
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

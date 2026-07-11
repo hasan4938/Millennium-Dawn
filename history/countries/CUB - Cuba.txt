@@ -1,4 +1,4 @@
-capital = 854
+﻿capital = 854
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
 	set_cosmetic_tag = CUB
@@ -94,10 +94,11 @@ capital = 854
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "CUB_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "CUB_2000_nonbba"
 		}
-	}
+	
 	complete_special_project = sp:sp_helicopter_project
 
 	if = {
@@ -403,7 +404,8 @@ capital = 854
 			icon = "gfx/interface/technologies/CUB/LAND/SPA3.dds"
 		}
 
-		else = {
+		}
+else = {
 			set_oob = "CUB_2000_nonnsb"
 			set_technology = {
 				transport_helicopter_1 = 1
@@ -418,7 +420,7 @@ capital = 854
 				SP_Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -426,10 +428,11 @@ capital = 854
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "CUB_2000_naval_mtg"
 
 	add_ideas = {

@@ -1,4 +1,4 @@
-capital = 724
+﻿capital = 724
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
 	set_cosmetic_tag = TAJ
@@ -67,7 +67,8 @@ capital = 724
 			armor_tech = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "TAJ_2000_nonnsb"
 
 			set_technology = {
@@ -82,7 +83,7 @@ capital = 724
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "TAJ_2000_bba"
 	}

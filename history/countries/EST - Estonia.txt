@@ -1,4 +1,4 @@
-capital = 105
+﻿capital = 105
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	set_cosmetic_tag = EST
@@ -19,7 +19,8 @@ capital = 105
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "EST_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -30,7 +31,7 @@ capital = 105
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "EST_2000_bba"
 	}
@@ -180,10 +181,11 @@ capital = 105
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 57.4

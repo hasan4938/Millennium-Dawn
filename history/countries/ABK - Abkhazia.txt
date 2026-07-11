@@ -1,4 +1,4 @@
-capital = 706
+﻿capital = 706
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	set_cosmetic_tag = ABK
@@ -51,7 +51,8 @@ capital = 706
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "ABK_2000_nonnsb"
 
 			set_technology = {
@@ -66,13 +67,14 @@ capital = 706
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ABK_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "ABK_2000_nonbba"
 		}
-	}
+	
 
 	#Starting Ideas/Laws
 	add_ideas = {

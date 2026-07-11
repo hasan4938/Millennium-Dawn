@@ -1,4 +1,4 @@
-capital = 147
+﻿capital = 147
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = MLV
@@ -28,7 +28,8 @@ capital = 147
 			nsb_SHORAD_missile_0 = 1
 			armor_tech = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "MLV_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -39,7 +40,7 @@ capital = 147
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -151,10 +152,11 @@ capital = 147
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

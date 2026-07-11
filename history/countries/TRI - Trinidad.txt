@@ -1,14 +1,15 @@
-capital = 869
+﻿capital = 869
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	oob = "TRI_2000"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "TRI_2000_bba"
-		else = {
+		}
+else = {
 			set_air_oob = "TRI_2000_nonbba"
 		}
-	}
+	
 
 	set_cosmetic_tag = TRI
 	set_country_flag = dynamic_flag
@@ -62,12 +63,13 @@ capital = 869
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

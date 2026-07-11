@@ -1,4 +1,4 @@
-capital = 365
+﻿capital = 365
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	oob = "GAM_2000"
@@ -157,14 +157,15 @@ capital = 365
 			mbt_tech_ops = 1
 			mbt_tech = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 				Early_APC = 1
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	add_to_array = { agri_crop_allocation = 0.787 } # Basic = 0
 	add_to_array = { agri_crop_allocation = 0.213 } # Cash = 1

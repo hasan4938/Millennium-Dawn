@@ -1,4 +1,4 @@
-capital = 516
+﻿capital = 516
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = LAO_AUTH_S
@@ -46,7 +46,8 @@ capital = 516
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "LAO_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -58,13 +59,14 @@ capital = 516
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "LAO_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "LAO_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		fully_nationalized_healthcare

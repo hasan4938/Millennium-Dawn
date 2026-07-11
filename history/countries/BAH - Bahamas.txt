@@ -1,4 +1,4 @@
-capital = 856
+﻿capital = 856
 2000.1.1 = {
 	set_variable = { currency_strength = 0.9 }
 	oob = "BAH_2000"
@@ -43,19 +43,21 @@ capital = 856
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BAH_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "BAH_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

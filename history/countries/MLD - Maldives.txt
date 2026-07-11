@@ -1,4 +1,4 @@
-capital = 480
+﻿capital = 480
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	oob = "MLD_2000"
@@ -62,12 +62,13 @@ capital = 480
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	init_influence = yes
 	set_variable = { domestic_influence_amount = 57 }

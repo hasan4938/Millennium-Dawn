@@ -1,4 +1,4 @@
-capital = 159
+﻿capital = 159
 2000.1.1 = {
 	set_variable = { currency_strength = 0.7 }
 	set_cosmetic_tag = TUR
@@ -119,7 +119,8 @@ capital = 159
 			icon = "gfx/interface/technologies/TUR/LAND/M-52T.dds"
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "TUR_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -147,7 +148,7 @@ capital = 159
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "TUR_2000_naval_mtg"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -172,7 +173,8 @@ capital = 159
 			special_mad_1 = 1
 			tgp_recon_1 = 1
 		}
-		else = {
+		}
+else = {
 			set_air_oob = "TUR_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -194,7 +196,7 @@ capital = 159
 				naval_plane2 = 1
 			}
 		}
-	}
+	
 
 	#Islamism
 	set_variable = { social_conservatism_government = 15 }
@@ -421,10 +423,11 @@ capital = 159
 
 		set_variable = { num_launchers_set = 6 }
 
-		else = {
+		}
+else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_technology = {
 			corvette_hull_1 = 1

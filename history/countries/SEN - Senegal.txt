@@ -1,4 +1,4 @@
-capital = 364
+﻿capital = 364
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	oob = "SEN_2000"
@@ -150,7 +150,8 @@ capital = 364
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -164,7 +165,7 @@ capital = 364
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 58.0

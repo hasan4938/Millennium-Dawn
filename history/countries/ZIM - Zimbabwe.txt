@@ -1,4 +1,4 @@
-capital = 290
+﻿capital = 290
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.35 }
@@ -12,7 +12,8 @@ capital = 290
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "ZIM_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -27,14 +28,15 @@ capital = 290
 			}
 
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ZIM_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "ZIM_2000_nonbba"
 		}
-	}
+	
 
 	set_cosmetic_tag = ZIM
 	set_country_flag = dynamic_flag

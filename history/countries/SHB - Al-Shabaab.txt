@@ -1,4 +1,4 @@
-capital = 239
+﻿capital = 239
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = is_civil_war_faction
@@ -70,7 +70,8 @@ capital = 239
 			gen_3_light = 1
 			early_weapons = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 
@@ -79,7 +80,7 @@ capital = 239
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "No Step Back" }
 
@@ -91,7 +92,8 @@ capital = 239
 			nsb_artillery_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -104,7 +106,7 @@ capital = 239
 				SP_R_arty_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

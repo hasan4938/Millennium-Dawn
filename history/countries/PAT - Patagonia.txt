@@ -1,4 +1,4 @@
-capital = 454 #Patagonia
+﻿capital = 454 #Patagonia
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 18.525 }
@@ -111,7 +111,8 @@ capital = 454 #Patagonia
 			early_weapons = 1
 			ag_weapons_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 						#A-4AR Fightinhawk
 				early_fighter = 1
@@ -123,7 +124,7 @@ capital = 454 #Patagonia
 				L_Strike_fighter2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "No Step Back" }
 
@@ -173,7 +174,8 @@ capital = 454 #Patagonia
 
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				MBT_2 = 1
@@ -193,7 +195,7 @@ capital = 454 #Patagonia
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	set_technology = {
 			corvette_hull_1 = 1

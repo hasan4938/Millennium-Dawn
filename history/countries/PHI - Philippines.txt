@@ -1,4 +1,4 @@
-capital = 1230
+﻿capital = 1230
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = PHI
@@ -94,7 +94,8 @@ capital = 1230
 			nsb_defense_tech_1 = 1
 			nsb_transport_helicopter_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "PHI_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -109,7 +110,7 @@ capital = 1230
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PHI_2000_bba"
 
@@ -122,7 +123,8 @@ capital = 1230
 			engines_2 = 1
 			air_weapons_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "PHI_2000_nonbba"
 
 			set_technology = {
@@ -131,7 +133,7 @@ capital = 1230
 				early_bomber = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "PHI_2000_naval_mtg"
 
 	#Rizal Class https://en.wikipedia.org/wiki/Rizal-class_corvette

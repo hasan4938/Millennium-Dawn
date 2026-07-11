@@ -1,4 +1,4 @@
-capital = 201
+﻿capital = 201
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = is_civil_war_faction
@@ -16,7 +16,8 @@ capital = 201
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+else = {
 			set_oob = "HEZ_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -29,7 +30,7 @@ capital = 201
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_to_array = { HEZ.HEZ_influenced_nations = SYR.id }
 	add_to_array = { HEZ.HEZ_influenced_nations = LEB.id }

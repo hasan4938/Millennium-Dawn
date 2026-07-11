@@ -1,4 +1,4 @@
-capital = 150
+﻿capital = 150
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
@@ -430,7 +430,8 @@ capital = 150
 			obsolete = yes
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+	else = {
 			set_oob = "ROM_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -489,7 +490,7 @@ capital = 150
 				type = APC_3
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -526,7 +527,8 @@ capital = 150
 			}
 			obsolete = yes
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "ROM_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -540,7 +542,7 @@ capital = 150
 				early_bomber = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "La Resistance" }
@@ -744,10 +746,11 @@ capital = 150
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 		complete_special_project = sp:sp_helicopter_project
 
 	#Air variants

@@ -1,4 +1,4 @@
-capital = 850
+﻿capital = 850
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_cosmetic_tag = COS
@@ -45,21 +45,23 @@ capital = 850
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				MBT_1 = 1
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "COS_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "COS_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

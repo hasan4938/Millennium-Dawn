@@ -1,4 +1,4 @@
-capital = 485
+﻿capital = 485
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
 	set_cosmetic_tag = NEP_AUTH_S
@@ -16,10 +16,11 @@ capital = 485
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "NEP_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "NEP_2000_nonbba"
 		}
-	}
+	
 	set_province_controller = 7198
 	set_province_controller = 10910
 	set_province_controller = 7206
@@ -123,7 +124,8 @@ capital = 485
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				tech_arty_0 = 1
@@ -131,7 +133,7 @@ capital = 485
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 24

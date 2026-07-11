@@ -1,4 +1,4 @@
-capital = 237
+﻿capital = 237
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = SML
@@ -36,7 +36,8 @@ capital = 237
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "SML_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -46,7 +47,7 @@ capital = 237
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

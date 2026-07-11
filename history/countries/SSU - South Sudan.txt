@@ -1,4 +1,4 @@
-capital = 227
+﻿capital = 227
 2000.1.1 = {
 	set_variable = { currency_strength = 0.35 }
 	set_cosmetic_tag = SSU_SPLA
@@ -43,7 +43,8 @@ capital = 227
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "SSU_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -58,7 +59,7 @@ capital = 227
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

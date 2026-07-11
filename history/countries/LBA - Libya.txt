@@ -1,4 +1,4 @@
-capital = 391
+﻿capital = 391
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = LBA_AUTH
@@ -23,7 +23,8 @@ capital = 391
 			nsb_attack_helicopter_tech_1 = 1
 		}
 
-		else = {
+		}
+else = {
 			set_oob = "LBA_2000_nonnsb"
 
 			set_technology = {
@@ -40,16 +41,17 @@ capital = 391
 				Early_APC = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "LBA_2000_bba"
 		send_embargo = ISR
 
-		else = {
+		}
+	else = {
 			set_air_oob = "LBA_2000_nonbba"
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			ballistic_missile = 1
@@ -73,10 +75,11 @@ capital = 391
 
 		set_variable = { num_launchers_set = 3 }
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "LBA_2000_naval_mtg"
 
 

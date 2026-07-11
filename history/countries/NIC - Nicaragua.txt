@@ -1,4 +1,4 @@
-capital = 849
+﻿capital = 849
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
 	if = {
@@ -10,7 +10,8 @@ capital = 849
 			mbt_tech = 1
 			nsb_artillery_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "NIC_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -21,15 +22,16 @@ capital = 849
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "NIC_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "NIC_2000_nonbba"
 		}
-	}
+	
 
 
 	set_cosmetic_tag = NIC

@@ -1,4 +1,4 @@
-capital = 270
+﻿capital = 270
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_country_flag = dynamic_flag
@@ -88,12 +88,13 @@ capital = 270
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 73.0

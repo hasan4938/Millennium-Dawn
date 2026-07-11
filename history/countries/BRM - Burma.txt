@@ -1,4 +1,4 @@
-
+﻿
 capital = 504
 2000.1.1 = {
 	set_variable = { currency_strength = 0.5 }
@@ -145,7 +145,8 @@ capital = 504
 		}
 
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+	else = {
 			set_oob = "BRM_2000_nonnsb"
 			set_technology = {
 				transport_helicopter_1 = 1
@@ -161,15 +162,16 @@ capital = 504
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BRM_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "BRM_2000_nonbba"
 		}
-	}
+	
 	set_naval_oob = "BRM_2000_naval_mtg"
 
 	add_ideas = {

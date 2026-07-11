@@ -1,4 +1,4 @@
-capital = 483
+﻿capital = 483
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_cosmetic_tag = SRI
@@ -79,7 +79,8 @@ capital = 483
 			 icon = "GFX_medium_tank_amphibious_chassis_1_a"
 		 }
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "SRI_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -97,15 +98,16 @@ capital = 483
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SRI_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "SRI_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

@@ -1,4 +1,4 @@
-
+﻿
 capital = 141
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
@@ -150,7 +150,8 @@ capital = 141
 			}
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "GRE_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -170,7 +171,7 @@ capital = 141
 				SP_Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "GRE_2000_bba"
@@ -179,10 +180,11 @@ capital = 141
 			early_airframe_designs = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "GRE_2000_nonbba"
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -190,10 +192,11 @@ capital = 141
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "GRE_2000_naval_mtg"
 
 	add_ideas = {

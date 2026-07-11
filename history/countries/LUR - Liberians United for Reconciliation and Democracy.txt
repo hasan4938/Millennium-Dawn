@@ -1,4 +1,4 @@
-capital = 356
+﻿capital = 356
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = is_civil_war_faction
@@ -69,12 +69,13 @@ capital = 356
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	declare_war_on = {
 		target = LIB

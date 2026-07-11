@@ -1,4 +1,4 @@
-
+﻿
 capital = 302
 2000.1.1 = {
 	set_variable = { currency_strength = 0.4 }
@@ -149,12 +149,13 @@ capital = 302
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 20.0

@@ -1,4 +1,4 @@
-capital = 602
+﻿capital = 602
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	set_cosmetic_tag = NKO_AUTH_S
@@ -549,7 +549,8 @@ capital = 602
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+else = {
 			set_oob = "NKO_2000_nonnsb"
 
 			set_technology = {
@@ -577,7 +578,7 @@ capital = 602
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "NKO_2000_bba"
@@ -592,7 +593,8 @@ capital = 602
 			air_weapons_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "NKO_2000_nonbba"
 
 			set_technology = {
@@ -601,7 +603,7 @@ capital = 602
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "Gotterdammerung" }
 
@@ -650,10 +652,11 @@ capital = 602
 
 		# Set the Nuclear Warhead Stance
 		complete_special_project = sp:sp_nuclear_warhead_program
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_technology = {
 

@@ -1,4 +1,4 @@
-capital = 84
+﻿capital = 84
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 43.191 }
@@ -64,7 +64,8 @@ capital = 84
 			nsb_artillery_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				Early_APC = 1
@@ -74,7 +75,7 @@ capital = 84
 				SP_arty_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes

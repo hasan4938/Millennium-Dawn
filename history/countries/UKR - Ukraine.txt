@@ -1,4 +1,4 @@
-##### 2000 #####
+﻿##### 2000 #####
 capital = 698
 
 698 = { add_dynamic_modifier = { modifier = UKR_home_to_chernobyl_zone } }
@@ -333,7 +333,8 @@ capital = 698
 			icon = "gfx/interface/technologies/SOV/LAND/2S1.dds"
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "UKR_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -365,7 +366,7 @@ capital = 698
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "UKR_2000_naval_mtg"
 
 	if = {
@@ -504,7 +505,8 @@ capital = 698
 				}
 				icon = "gfx/interface/technologies/UKR/AIR/C2.dds"
 			}
-		else = {
+		}
+else = {
 			set_air_oob = "UKR_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -523,7 +525,7 @@ capital = 698
 				strategic_bomber1 = 1
 			}
 		}
-	}
+	
 	# Verkhovna (Parliament) Mechanic
 	# Ukraine was a Pro-Russian government in 2000 (Kuchma)
 	add_to_variable = { var = UKR_verkhovna_support value = 198 } #Current Verkhovna Support
@@ -774,10 +776,11 @@ capital = 698
 		complete_special_project = sp:sp_missile_project
 
 		set_variable = { num_launchers_set = 2 }
-		else = {
+		}
+else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 
 	set_technology = {

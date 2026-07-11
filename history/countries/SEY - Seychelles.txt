@@ -1,13 +1,14 @@
-capital = 565
+﻿capital = 565
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SEY_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "SEY_2000_nonbba"
 		}
-	}
+	
 
 	oob = "SEY_2000"
 
@@ -114,7 +115,8 @@ capital = 565
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -124,7 +126,7 @@ capital = 565
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 0.0

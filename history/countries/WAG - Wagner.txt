@@ -1,4 +1,4 @@
-capital = 67
+﻿capital = 67
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
@@ -20,10 +20,11 @@ capital = 67
 
 
 		set_oob = "SOV_2000_nsb"
-		else = {
+		}
+else = {
 			set_oob = "SOV_2000_nonnsb"
 		}
-	}
+	
 
 
 

@@ -1,4 +1,4 @@
-capital = 362
+﻿capital = 362
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 2.620 }
@@ -114,7 +114,8 @@ capital = 362
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -125,7 +126,7 @@ capital = 362
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 57.0

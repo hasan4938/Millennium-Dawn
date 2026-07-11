@@ -1,4 +1,4 @@
-capital = 164
+﻿capital = 164
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = KDP_cosmetic
@@ -43,7 +43,8 @@ capital = 164
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "KUR_2000_nonnsb"
 			set_technology = {
 				SP_R_arty_0 = 1
@@ -52,7 +53,7 @@ capital = 164
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

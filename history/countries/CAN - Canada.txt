@@ -1,4 +1,4 @@
-capital = 763
+﻿capital = 763
 2000.1.1 = {
 	set_variable = { currency_strength = 1.1 }
 	set_cosmetic_tag = CAN
@@ -326,7 +326,8 @@ capital = 763
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+	else = {
 			set_oob = "CAN_2000_nonnsb"
 
 			set_technology = {
@@ -358,7 +359,7 @@ capital = 763
 				obsolete = yes
 			}
 		}
-	}
+	
 
 	set_naval_oob = "CAN_2000_naval_mtg"
 
@@ -638,7 +639,8 @@ capital = 763
 			obsolete = yes
 		}
 
-		else = {
+		}
+else = {
 			set_air_oob = "CAN_2000_nonbba"
 
 			set_technology = {
@@ -658,7 +660,7 @@ capital = 763
 				transport_plane2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "Gotterdammerung" }
 		complete_special_project = sp:sp_space_program_gdm
@@ -681,10 +683,11 @@ capital = 763
 			SPYSAT4 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	complete_special_project = sp:sp_nuclear_energy
 
 	set_technology = {

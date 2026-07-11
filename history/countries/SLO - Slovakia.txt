@@ -1,4 +1,4 @@
-capital = 119
+﻿capital = 119
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.75 }
@@ -75,7 +75,8 @@ capital = 119
 			obsolete = yes
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "SLO_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -95,7 +96,7 @@ capital = 119
 				Early_APC = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -105,14 +106,15 @@ capital = 119
 			early_airframe_designs = 1
 			early_weapons = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "SLO_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
 				MR_Fighter1 = 1
 			}
 		}
-	}
+	
 
 
 	set_cosmetic_tag = SLO
@@ -246,10 +248,11 @@ capital = 119
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 		complete_special_project = sp:sp_helicopter_project
 

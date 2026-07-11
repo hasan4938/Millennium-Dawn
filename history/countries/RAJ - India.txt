@@ -1,4 +1,4 @@
-capital = 431
+﻿capital = 431
 2000.1.1 = {
 	set_variable = { currency_strength = 0.7 }
 	set_cosmetic_tag = RAJ
@@ -203,7 +203,8 @@ capital = 431
 			amount = 54
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+	else = {
 			set_oob = "RAJ_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -226,7 +227,7 @@ capital = 431
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "RAJ_2000_naval_mtg"
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -281,7 +282,8 @@ capital = 431
 			model = "SOV_small_plane_airframe_1_entity"
 			icon = "gfx/interface/technologies/SOV/AIR/MR1.dds"
 		}
-		else = {
+		}
+else = {
 			set_air_oob = "RAJ_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -302,7 +304,7 @@ capital = 431
 				strategic_bomber1 = 1
 			}
 		}
-	}
+	
 
 	set_variable = { enrichment_facilities = 1 }
 	add_to_array = { global.enrichment_countries = THIS.id }
@@ -626,10 +628,11 @@ capital = 431
 		complete_special_project = sp:sp_missile_project
 
 		set_variable = { num_launchers_set = 7 }
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 
 	set_technology = {

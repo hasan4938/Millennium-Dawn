@@ -1,4 +1,4 @@
-capital = 596
+﻿capital = 596
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_country_flag = dynamic_flag
@@ -45,7 +45,8 @@ capital = 596
 			mbt_tech = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "MON_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -58,14 +59,15 @@ capital = 596
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "MON_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "MON_2000_nonbba"
 		}
-	}
+	
 
 	set_cosmetic_tag = MON
 

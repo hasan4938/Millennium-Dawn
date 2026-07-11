@@ -1,4 +1,4 @@
-capital = 845
+﻿capital = 845
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = BLZ
@@ -41,19 +41,21 @@ capital = 845
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BLZ_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "BLZ_2000_nonbba"
 		}
-	}
+	
 
 	add_opinion_modifier = { target = DMI modifier = english_speaking }
 	reverse_add_opinion_modifier = { target = DMI modifier = english_speaking }

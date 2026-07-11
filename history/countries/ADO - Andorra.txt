@@ -1,4 +1,4 @@
-capital = 945
+﻿capital = 945
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	oob = "GENERIC_OOB"
@@ -99,7 +99,8 @@ capital = 945
 			nsb_Arty_upgrade_2 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				SP_arty_0 = 1
@@ -115,7 +116,7 @@ capital = 945
 				Arty_upgrade_2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 
@@ -123,12 +124,13 @@ capital = 945
 			early_airframe_designs = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

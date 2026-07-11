@@ -1,4 +1,4 @@
-capital = 190
+﻿capital = 190
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_country_flag = is_civil_war_faction
@@ -15,7 +15,8 @@ capital = 190
 			nsb_artillery_0 = 1
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "NUS_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -28,7 +29,7 @@ capital = 190
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

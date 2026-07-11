@@ -1,4 +1,4 @@
-capital = 240
+﻿capital = 240
 2000.1.1 = {
 	set_variable = { currency_strength = 0.35 }
 	set_cosmetic_tag = SOM
@@ -109,7 +109,8 @@ capital = 240
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -118,7 +119,7 @@ capital = 240
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	declare_war_on = {
 		target = SWS

@@ -1,4 +1,4 @@
-capital = 242
+﻿capital = 242
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = KEN
@@ -56,7 +56,8 @@ capital = 242
 			nsb_attack_helicopter_tech_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "KEN_2000_nonnsb"
 
 			set_technology = {
@@ -68,14 +69,15 @@ capital = 242
 				attack_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "KEN_2000_bba"
 
-		else = {
+		}
+	else = {
 			set_air_oob = "KEN_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

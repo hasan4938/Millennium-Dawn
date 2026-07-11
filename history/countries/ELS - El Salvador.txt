@@ -1,4 +1,4 @@
-capital = 843
+﻿capital = 843
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = ELS
@@ -47,7 +47,8 @@ capital = 843
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "ELS_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -57,13 +58,14 @@ capital = 843
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "ELS_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "ELS_2000_nonbba"
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

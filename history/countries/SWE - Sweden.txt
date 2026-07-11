@@ -1,4 +1,4 @@
-capital = 34
+﻿capital = 34
 
 2000.1.1 = {
 	set_variable = { currency_strength = 1.05 }
@@ -824,7 +824,8 @@ capital = 34
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
 		complete_special_project = sp:sp_tank_nera_armor
-		else = {
+		}
+else = {
 			set_oob = "SWE_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -856,7 +857,7 @@ capital = 34
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		complete_special_project = sp:sp_awacs_project
@@ -1022,7 +1023,8 @@ capital = 34
 			}
 			icon = "gfx/interface/technologies/SWE/AIR/Argus.dds"
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "SWE_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -1037,7 +1039,7 @@ capital = 34
 				transport_plane1 = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "SWE_2000_naval_mtg"
 
 
@@ -1249,10 +1251,11 @@ capital = 34
 		complete_special_project = sp:sp_missile_project
 		complete_special_project = sp:sp_space_program_gdm
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_technology = {
 			corvette_hull_1 = 1

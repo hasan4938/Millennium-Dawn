@@ -1,4 +1,4 @@
-capital = 598
+﻿capital = 598
 2000.1.1 = {
 	set_variable = { currency_strength = 0.85 }
 	set_cosmetic_tag = TAI
@@ -183,7 +183,8 @@ capital = 598
 			obsolete = yes
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "TAI_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -209,7 +210,7 @@ capital = 598
 				transport_helicopter_2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		complete_special_project = sp:sp_awacs_project
@@ -273,7 +274,8 @@ capital = 598
 				}
 				obsolete = yes
 			}
-		else = {
+		}
+	else = {
 			set_air_oob = "TAI_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -285,7 +287,7 @@ capital = 598
 				transport_plane1 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare
@@ -446,10 +448,11 @@ capital = 598
 		complete_special_project = sp:sp_missile_project
 
 		set_variable = { num_launchers_set = 6 }
-		else = {
+		}
+else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_technology = {
 			corvette_hull_1 = 1

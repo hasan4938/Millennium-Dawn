@@ -1,4 +1,4 @@
-capital = 189
+﻿capital = 189
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 2.710 }
@@ -45,12 +45,13 @@ capital = 189
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	#UAR
 	add_to_array = { global.arabic_countries = THIS }	#From is_arabic_nation trigger

@@ -1,4 +1,4 @@
-capital = 76
+﻿capital = 76
 2000.1.1 = {
 	set_variable = { currency_strength = 1.2 }
 	add_ideas = { partially_nationalized_healthcare partial_environmental_protections extensive_maintenance }
@@ -278,7 +278,8 @@ capital = 76
 			}
 			icon = "gfx/interface/technologies/AUS/LAND/IFV3.dds"
 		}
-		else = {
+		}
+	else = {
 			set_oob = "AUS_2000_nonnsb"
 
 			set_technology = {
@@ -300,7 +301,7 @@ capital = 76
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "AUS_2000_bba"
 		set_technology = {
@@ -315,7 +316,8 @@ capital = 76
 			ag_weapons_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "AUS_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -324,7 +326,7 @@ capital = 76
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -332,10 +334,11 @@ capital = 76
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	add_ideas = {
 		partially_nationalized_healthcare

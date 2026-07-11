@@ -1,4 +1,4 @@
-capital = 508
+﻿capital = 508
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.7 }
@@ -36,7 +36,8 @@ capital = 508
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+else = {
 			set_oob = "SIA_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -54,7 +55,7 @@ capital = 508
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 
@@ -69,7 +70,8 @@ capital = 508
 			engines_2 = 1
 			air_weapons_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "SIA_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -78,7 +80,7 @@ capital = 508
 				early_bomber = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "SIA_2000_naval_mtg"
 
 	add_ideas = {
@@ -305,10 +307,11 @@ capital = 508
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 61.0

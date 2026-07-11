@@ -1,4 +1,4 @@
-capital = 725
+﻿capital = 725
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = UZB_AUTH
@@ -72,7 +72,8 @@ capital = 725
 			nsb_transport_helicopter_1 = 1
 			armor_tech = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "UZB_2000_nonnsb"
 
 			set_technology = {
@@ -88,7 +89,7 @@ capital = 725
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "UZB_2000_bba"
@@ -99,7 +100,8 @@ capital = 725
 			flying_wing_design = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "UZB_2000_nonbba"
 			set_technology = {
 				early_bomber = 1
@@ -107,7 +109,7 @@ capital = 725
 				transport_plane2 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
@@ -116,10 +118,11 @@ capital = 725
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	set_variable = { UZB_karakalpakstans_opinion = 30 }			# Starting opinion of Karapalkans
 	set_variable = { UZB_uzbeks_opinion = 70 }			# Starting opinion of Uzbeks

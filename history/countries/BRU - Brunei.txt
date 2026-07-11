@@ -1,4 +1,4 @@
-capital = 752
+﻿capital = 752
 2000.1.1 = {
 	set_variable = { currency_strength = 0.9 }
 	set_cosmetic_tag = BRU_AUTH
@@ -45,7 +45,8 @@ capital = 752
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "BRU_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -55,7 +56,7 @@ capital = 752
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

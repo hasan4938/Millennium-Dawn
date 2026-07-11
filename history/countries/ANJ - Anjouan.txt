@@ -1,4 +1,4 @@
-capital = 1214
+﻿capital = 1214
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	oob = "GENERIC_OOB"
@@ -10,12 +10,13 @@ capital = 1214
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_technology = {
 		integrated_transportation_system = 1

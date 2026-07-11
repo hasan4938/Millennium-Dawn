@@ -1,4 +1,4 @@
-capital = 186
+﻿capital = 186
 2000.1.1 = {
 	set_variable = { currency_strength = 0.45 }
 	set_cosmetic_tag = SYR_AUTH
@@ -70,7 +70,8 @@ capital = 186
 			armor_tech = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "SYR_2000_nonnsb"
 
 			set_technology = {
@@ -87,15 +88,16 @@ capital = 186
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "SYR_2000_bba"
 		send_embargo = ISR
-		else = {
+		}
+	else = {
 			set_air_oob = "SYR_2000_nonbba"
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -103,10 +105,11 @@ capital = 186
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "SYR_2000_naval_mtg"
 
 	add_opinion_modifier = { target = ISR modifier = ISR_Arab_Conflict }
@@ -131,13 +134,14 @@ capital = 186
 			target = LEB
 			autonomy_state = autonomy_puppet_state_colored
 		}
-		else = {
+		}
+	else = {
 			set_autonomy = {
 				target = LEB
 				autonomy_state = autonomy_puppet_state
 			}
 		}
-	}
+	
 
 	LEB = {
 		set_popularities = {

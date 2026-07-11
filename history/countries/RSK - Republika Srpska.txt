@@ -1,4 +1,4 @@
-capital = 1054
+﻿capital = 1054
 
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
@@ -136,7 +136,8 @@ capital = 1054
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				Early_APC = 1
@@ -148,7 +149,7 @@ capital = 1054
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 	set_popularities = {
 		democratic = 29.8
 		communism = 39.1

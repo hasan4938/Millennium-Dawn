@@ -1,4 +1,4 @@
-capital = 489
+﻿capital = 489
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	oob = "NPM_2000"
@@ -61,7 +61,8 @@ capital = 489
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				tech_arty_0 = 1
@@ -74,7 +75,7 @@ capital = 489
 				IFV_1 = 1
 			}
 		}
-	}
+	
 
 	#Starting Ideas/Laws
 	add_ideas = {

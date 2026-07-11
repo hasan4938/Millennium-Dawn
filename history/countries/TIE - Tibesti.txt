@@ -1,4 +1,4 @@
-capital = 327
+﻿capital = 327
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_oob = "TIE_2000"
@@ -87,13 +87,14 @@ capital = 327
 			mbt_tech_ops = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				Early_APC = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 10

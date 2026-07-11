@@ -1,4 +1,4 @@
-capital = 528
+﻿capital = 528
 2000.1.1 = {
 	set_variable = { currency_strength = 0.7 }
 	set_cosmetic_tag = MAY
@@ -104,7 +104,8 @@ capital = 528
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "MAY_2000_nonnsb"
 
 			set_technology = {
@@ -118,14 +119,15 @@ capital = 528
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "MAY_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "MAY_2000_nonbba"
 		}
-	}
+	
 	set_naval_oob = "MAY_2000_naval_mtg"
 
 	add_ideas = {

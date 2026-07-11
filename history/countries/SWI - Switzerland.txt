@@ -1,4 +1,4 @@
-capital = 74
+﻿capital = 74
 2000.1.1 = {
 	set_variable = { currency_strength = 1.05 }
 	set_cosmetic_tag = SWI
@@ -311,7 +311,8 @@ capital = 74
 			}
 		}
 		complete_special_project = sp:sp_armoured_vehicle_project
-		else = {
+		}
+else = {
 			set_oob = "SWI_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -338,7 +339,7 @@ capital = 74
 				Early_APC = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -404,7 +405,8 @@ capital = 74
 				}
 				icon = "gfx/interface/technologies/USA/AIR/PC7.dds"
 			}
-		else = {
+		}
+	else = {
 			set_air_oob = "SWI_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -419,7 +421,7 @@ capital = 74
 				transport_plane1 = 1
 			}
 		}
-	}
+	
 
 
 	add_ideas = {
@@ -611,10 +613,11 @@ capital = 74
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	complete_special_project = sp:sp_helicopter_project
 

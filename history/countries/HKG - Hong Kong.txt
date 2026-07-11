@@ -1,4 +1,4 @@
-capital = 595
+﻿capital = 595
 2000.1.1 = {
 	set_variable = { currency_strength = 0.9 }
 	set_cosmetic_tag = HKG_autonomy_special_administrative_region
@@ -87,12 +87,13 @@ capital = 595
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	### HKG ###
 	#Influence system

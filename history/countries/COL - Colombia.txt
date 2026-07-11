@@ -1,4 +1,4 @@
-capital = 911
+﻿capital = 911
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_cosmetic_tag = COL
@@ -51,10 +51,11 @@ capital = 911
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "COL_2000_bba"
-		else = {
+		}
+else = {
 			set_air_oob = "COL_2000_nonbba"
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes
@@ -174,7 +175,8 @@ capital = 911
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				MBT_1 = 1
 				Early_APC = 1 #Vehicle Design
@@ -187,7 +189,7 @@ capital = 911
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	# Naval Technology
 	set_technology = {

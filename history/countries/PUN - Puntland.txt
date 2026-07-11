@@ -1,4 +1,4 @@
-capital = 239
+﻿capital = 239
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_variable = { gdp_per_capita = 0.920 }
@@ -36,7 +36,8 @@ capital = 239
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "PUN_2000_nonnsb"
 			set_technology = {
 				Early_APC = 1
@@ -46,7 +47,7 @@ capital = 239
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

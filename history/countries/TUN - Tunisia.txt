@@ -1,4 +1,4 @@
-capital = 388
+﻿capital = 388
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_cosmetic_tag = TUN
@@ -74,7 +74,8 @@ capital = 388
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "TUN_2000_nonnsb"
 
 			set_technology = {
@@ -89,7 +90,7 @@ capital = 388
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -100,7 +101,8 @@ capital = 388
 			early_weapons = 1
 			gen_3_light = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "TUN_2000_nonbba"
 
 			set_technology = {
@@ -112,7 +114,7 @@ capital = 388
 				early_bomber = 1
 			}
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

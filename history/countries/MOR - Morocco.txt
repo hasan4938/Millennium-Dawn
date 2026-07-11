@@ -1,4 +1,4 @@
-capital = 1177
+﻿capital = 1177
 2000.1.1 = {
 	set_variable = { currency_strength = 0.6 }
 	set_cosmetic_tag = MOR
@@ -80,7 +80,8 @@ capital = 1177
 			nsb_transport_helicopter_2 = 1
 			nsb_transport_helicopter_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_oob = "MOR_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -95,7 +96,7 @@ capital = 1177
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "MOR_2000_bba"
@@ -110,7 +111,8 @@ capital = 1177
 			engines_2 = 1
 			air_weapons_1 = 1
 		}
-		else = {
+		}
+	else = {
 			set_air_oob = "MOR_2000_nonbba"
 
 			set_technology = {
@@ -119,7 +121,7 @@ capital = 1177
 				early_bomber = 1
 			}
 		}
-	}
+	
 	set_naval_oob = "MOR_2000_naval_mtg"
 
 	create_equipment_variant = {

@@ -1,4 +1,4 @@
-capital = 557
+﻿capital = 557
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = IRQ_AUTH_nationalist
@@ -276,7 +276,8 @@ capital = 557
 			icon = "gfx/interface/technologies/IRQ/LAND/REC1.dds"
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "IRQ_2000_nonnsb"
 
 			set_technology = {
@@ -296,7 +297,7 @@ capital = 557
 				Arty_upgrade_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "IRQ_2000_bba"
@@ -315,7 +316,8 @@ capital = 557
 			air_weapons_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "IRQ_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -325,7 +327,7 @@ capital = 557
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -333,10 +335,11 @@ capital = 557
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	add_ideas = {
 		partially_privatized_healthcare

@@ -1,4 +1,4 @@
-capital = 209
+﻿capital = 209
 2000.1.1 = {
 	set_variable = { currency_strength = 0.65 }
 	set_oob = "HAM_2000"
@@ -77,12 +77,13 @@ capital = 209
 		set_technology = {
 			nsb_Anti_Air_0 = 1
 		}
-		else = {
+		}
+	else = {
 			set_technology = {
 				Anti_Air_0 = 1
 			}
 		}
-	}
+	
 
 	set_variable = { var = treasury value = 3 }
 	set_variable = { var = corporate_tax_rate value = 20 }

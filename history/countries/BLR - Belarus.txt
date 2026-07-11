@@ -1,4 +1,4 @@
-capital = 703
+﻿capital = 703
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
 	set_cosmetic_tag = BLR
@@ -36,7 +36,8 @@ capital = 703
 			nsb_transport_helicopter_1 = 1
 		}
 
-		else = {
+		}
+else = {
 			set_oob = "BLR_2000_nonnsb"
 
 			set_technology = {
@@ -53,7 +54,7 @@ capital = 703
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -64,7 +65,8 @@ capital = 703
 			early_weapons = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "BLR_2000_nonbba"
 
 			set_technology = {
@@ -73,7 +75,7 @@ capital = 703
 				early_bomber = 1
 			}
 		}
-	}
+	
 
 	add_opinion_modifier = { target = KAZ modifier = russian_proficient }
 	reverse_add_opinion_modifier = { target = KAZ modifier = russian_proficient }
@@ -212,10 +214,11 @@ capital = 703
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 
 	# Influence Targets
 	add_to_array = { BLR.influence_targets = LIT } # Lith

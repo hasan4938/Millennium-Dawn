@@ -1,4 +1,4 @@
-capital = 547
+﻿capital = 547
 2000.1.1 = {
 	set_variable = { currency_strength = 0.8 }
 
@@ -1263,7 +1263,8 @@ capital = 547
 		complete_special_project = sp:sp_armoured_vehicle_project
 
 		set_oob = "CHI_2000_nsb"
-		else = {
+		}
+	else = {
 			set_oob = "CHI_2000_nonnsb"
 
 			set_technology = {
@@ -1316,7 +1317,7 @@ capital = 547
 				obsolete = yes
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "By Blood Alone" }
 
 		set_air_oob = "CHI_2000_bba"
@@ -1738,7 +1739,8 @@ capital = 547
 			icon = "GFX_CHI_small_plane_cas_airframe_1"
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "CHI_2000_nonbba"
 
 			set_technology = {
@@ -1801,7 +1803,7 @@ capital = 547
 				obsolete = yes
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			ballistic_missile = 1
@@ -1854,10 +1856,11 @@ capital = 547
 
 		set_variable = { num_launchers_set = 9 }
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	if = { limit = { has_dlc = "La Resistance" }
 		create_intelligence_agency = {
 			name = "Ministry of State Security (MSS)"

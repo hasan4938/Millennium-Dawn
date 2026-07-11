@@ -1,4 +1,4 @@
-capital = 2
+﻿capital = 2
 2000.1.1 = {
 	set_oob = "GENERIC_OOB"
 	add_ideas = {
@@ -226,7 +226,8 @@ capital = 2
 
 		complete_special_project = sp:sp_armoured_vehicle_project
 
-		else = {
+		}
+	else = {
 
 			set_technology = {
 				MBT_1 = 1
@@ -240,7 +241,7 @@ capital = 2
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 
@@ -276,7 +277,8 @@ capital = 2
 			tgp_recon_1 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				early_fighter = 1
 				Strike_fighter1 = 1
@@ -292,7 +294,7 @@ capital = 2
 				transport_plane1 = 1
 			}
 		}
-	}
+	
 
 	set_popularities = {
 		democratic = 35.0

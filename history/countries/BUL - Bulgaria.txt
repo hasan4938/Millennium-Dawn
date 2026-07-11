@@ -1,4 +1,4 @@
-capital = 153
+﻿capital = 153
 2000.1.1 = {
 	set_variable = { currency_strength = 0.75 }
 	set_cosmetic_tag = BUL
@@ -153,7 +153,8 @@ capital = 153
 			obsolete = yes
 		}
 
-		else = {
+		}
+	else = {
 			set_oob = "BUL_2000_nonnsb"
 			set_technology = {
 				MBT_1 = 1
@@ -168,7 +169,7 @@ capital = 153
 				transport_helicopter_1 = 1
 			}
 		}
-	}
+	
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BUL_2000_bba"
@@ -176,7 +177,8 @@ capital = 153
 			early_airframe_designs = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_air_oob = "BUL_2000_nonbba"
 			set_technology = {
 				early_fighter = 1
@@ -184,7 +186,7 @@ capital = 153
 				early_bomber = 1
 			}
 		}
-	}
+	
 	if = { limit = { has_dlc = "Gotterdammerung" }
 		set_technology = {
 			air_defense = 1
@@ -192,10 +194,11 @@ capital = 153
 			SAM0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			complete_special_project = sp:sp_space_program_non_gdm
 		}
-	}
+	
 	set_naval_oob = "BUL_2000_naval_mtg"
 
 

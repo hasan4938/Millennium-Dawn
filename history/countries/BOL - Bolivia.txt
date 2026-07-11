@@ -1,4 +1,4 @@
-
+﻿
 capital = 897
 2000.1.1 = {
 	set_variable = { currency_strength = 0.55 }
@@ -17,10 +17,11 @@ capital = 897
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BOL_2000_bba"
-		else = {
+		}
+	else = {
 			set_air_oob = "BOL_2000_nonbba"
 		}
-	}
+	
 
 	# Opinion Modifiers
 	add_opinion_modifier = { target = DOM modifier = spanish_speaking }
@@ -148,7 +149,8 @@ capital = 897
 			nsb_Anti_Air_0 = 1
 		}
 
-		else = {
+		}
+	else = {
 			set_technology = {
 				Early_APC = 1
 				APC_1 = 1
@@ -158,7 +160,7 @@ capital = 897
 				Rec_tank_0 = 1
 			}
 		}
-	}
+	
 
 	#Influence system
 	init_influence = yes
